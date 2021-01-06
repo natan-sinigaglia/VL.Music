@@ -17,11 +17,6 @@
         <Canvas Id="VRyIWrRfjvaNCfkrxYdl94" CanvasType="Group" />
         <Patch Id="CG8GsQAUCHuL2vgnhIFPM5" Name="Create" />
         <Patch Id="Ga5h6O7lKJtMOhtIG4Wsc1" Name="Update" />
-        <!--
-
-    ************************  ************************
-
--->
         <ProcessDefinition Id="HS38RJD0d2KP1ElLaf99Dc">
           <Fragment Id="CY9DRF29jdjPoLPp2P33u7" Patch="CG8GsQAUCHuL2vgnhIFPM5" Enabled="true" />
           <Fragment Id="CQ1X7FFyLDANrg8oq0ZCLK" Patch="Ga5h6O7lKJtMOhtIG4Wsc1" Enabled="true" />
@@ -30,8 +25,9 @@
     </Node>
   </Patch>
   <NugetDependency Id="VpmQEMq3sl6LgSHgKicPXd" Location="VL.Stride" Version="0.8.142-gad8b728d9c" />
-  <DocumentDependency Id="J7mr1iPGymKLpVhiNkyMDk" Location="./vl/VL.Music.MIDI.vl" />
   <DocumentDependency Id="RAbZoemkaYXL2zQduvJHSY" Location="./vl/VL.Music.Theory.vl" />
-  <DocumentDependency Id="OsxwELR1BiDNuhqqDqykcD" Location="./vl/VL.Music.Audio.vl" />
   <DocumentDependency Id="Os5p6dmzBM5M8uOOy2AMhk" Location="./vl/VL.Music.Core.vl" />
+  <DocumentDependency Id="SdVGvlDrUQkNyyAYvlgUe1" Location="./vl/VL.Music.Generator.vl" />
+  <DocumentDependency Id="FidYO956GneMZ5GN7X7C1V" Location="./vl/VL.Music.Visualization.vl" />
+  <DocumentDependency Id="OYidxIQjiU9Nfqe5DyTIKW" Location="./vl/VL.Music.Editor.vl" />
 </Document>

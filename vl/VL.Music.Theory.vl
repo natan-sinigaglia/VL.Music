@@ -4,6 +4,7 @@
   <Patch Id="Myo4a0ydMcaL8hOgf4Sjza">
     <Canvas Id="L7WBxJHUUnbNhyI1gN2wP6" DefaultCategory="Music.Theory" CanvasType="FullCategory">
       <Canvas Id="VYvfYr1HQcBNlO81fwph9o" Name="Analysis" Position="354,198" BordersChecked="false" />
+      <Canvas Id="HLjS3afBALwMkeb5joD6O6" Name="Generation" Position="357,275" BordersChecked="false" />
     </Canvas>
     <!--
 
@@ -19,11 +20,6 @@
         <Canvas Id="R2i8Yhr9HCEMxRU1Y9HZHd" CanvasType="Group" />
         <Patch Id="HlCOKgfFhi6Np3fkV8D6QI" Name="Create" />
         <Patch Id="UsZwmO7HAAULwZXPtpnkiJ" Name="Update" />
-        <!--
-
-    ************************  ************************
-
--->
         <ProcessDefinition Id="PF3NOtw36TkQGohlyCCRJP">
           <Fragment Id="LfThumQC9RGMuZmep4Qy0A" Patch="HlCOKgfFhi6Np3fkV8D6QI" Enabled="true" />
           <Fragment Id="MtV4ANsi3u7L4y38oBlUEB" Patch="UsZwmO7HAAULwZXPtpnkiJ" Enabled="true" />
@@ -31,5 +27,4 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Gf6UmLovwzJMJ7Uwgig0Rp" Location="VL.Stride" Version="0.8.142-gad8b728d9c" />
 </Document>
