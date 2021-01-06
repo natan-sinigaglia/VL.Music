@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" Id="E4EW9ouyV3QM0V02ETQZW6" LanguageVersion="2020.3.0.129" Version="0.128">
+  <NugetDependency Id="SlELeXeM3wtPkkyfAz4zQy" Location="VL.CoreLib" Version="2020.3.0-0129-g9910d9a3ec" />
+  <Patch Id="Myo4a0ydMcaL8hOgf4Sjza">
+    <Canvas Id="L7WBxJHUUnbNhyI1gN2wP6" DefaultCategory="Music.Theory" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="A6A7f9AViwjOB4Q6jS20Bp">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <FullNameCategoryReference ID="Primitive" />
+      </p:NodeReference>
+      <Patch Id="LhHYKE1jKxFMq2y4ZrQ0OM">
+        <Canvas Id="R2i8Yhr9HCEMxRU1Y9HZHd" CanvasType="Group" />
+        <Patch Id="HlCOKgfFhi6Np3fkV8D6QI" Name="Create" />
+        <Patch Id="UsZwmO7HAAULwZXPtpnkiJ" Name="Update" />
+        <!--
+
+    ************************  ************************
+
+-->
+        <ProcessDefinition Id="PF3NOtw36TkQGohlyCCRJP">
+          <Fragment Id="LfThumQC9RGMuZmep4Qy0A" Patch="HlCOKgfFhi6Np3fkV8D6QI" Enabled="true" />
+          <Fragment Id="MtV4ANsi3u7L4y38oBlUEB" Patch="UsZwmO7HAAULwZXPtpnkiJ" Enabled="true" />
+        </ProcessDefinition>
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="Gf6UmLovwzJMJ7Uwgig0Rp" Location="VL.Stride" Version="0.8.142-gad8b728d9c" />
+</Document>

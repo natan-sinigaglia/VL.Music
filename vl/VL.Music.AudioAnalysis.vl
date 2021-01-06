@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" Id="IT25mMPWbZHMQjyhDrCl43" LanguageVersion="2020.3.0.129" Version="0.128">
+  <NugetDependency Id="OYNTJjI6uvYPskONw813z5" Location="VL.CoreLib" Version="2020.3.0-0129-g9910d9a3ec" />
+  <Patch Id="E7XFXCJ1KhyNylSNrckJwE">
+    <Canvas Id="NQiYHrdwQFoQUu3aShNhYH" DefaultCategory="Music.AudioAnalysis" CanvasType="FullCategory">
+      <!--
+
+    ************************ MonophonicPitchFilter ************************
+
+-->
+      <Node Name="MonophonicPitchFilter" Bounds="428,194" Id="G46AnmkhCMnPaYKnzOdFkT">
+        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+          <Choice Kind="ContainerDefinition" Name="Process" />
+        </p:NodeReference>
+        <Patch Id="MnczaGDLnW9PcZkBS1Sh4r">
+          <Canvas Id="V3DrzqfRkV4LnMo5eRD4Fz" CanvasType="Group" />
+          <Patch Id="E0GK2IF7MEvMlODLESXMdw" Name="Create" />
+          <Patch Id="ERUbxM5BaATMoF6SreVGtQ" Name="Update" />
+          <ProcessDefinition Id="LnuPuUYlbpaNdo3S8VvmCk">
+            <Fragment Id="AITJrezdipJMpIS2fr6kRD" Patch="E0GK2IF7MEvMlODLESXMdw" Enabled="true" />
+            <Fragment Id="DlVyYpq3p5IPabr2tdIYlQ" Patch="ERUbxM5BaATMoF6SreVGtQ" Enabled="true" />
+          </ProcessDefinition>
+        </Patch>
+      </Node>
+    </Canvas>
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="N5JBxkT1OeGLb40CHGhsXi">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <FullNameCategoryReference ID="Primitive" />
+      </p:NodeReference>
+      <Patch Id="OZmEPT1CXeDNAfxEfJuhog">
+        <Canvas Id="LLvjzpyR5bbOwKqHFjJFOv" CanvasType="Group" />
+        <Patch Id="OA9bU02SPh9N3hEWVA80tf" Name="Create" />
+        <Patch Id="MN4Zao6az4hNTksuq83ZuG" Name="Update" />
+        <!--
+
+    ************************  ************************
+
+-->
+        <ProcessDefinition Id="OYlHbn2eRAyOxmu9dx6ve4">
+          <Fragment Id="G7EtKSUunlkNx4Ag0vjTsq" Patch="OA9bU02SPh9N3hEWVA80tf" Enabled="true" />
+          <Fragment Id="EF4N6g1HTMCQLunewBlBrU" Patch="MN4Zao6az4hNTksuq83ZuG" Enabled="true" />
+        </ProcessDefinition>
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="VfbWR3eAfOhMCjS3kM7z7y" Location="VL.Stride" Version="0.8.142-gad8b728d9c" />
+  <DocumentDependency Id="GcTI3nqhfeUOfDdvzkShtI" Location="./VL.Music.Core.vl" />
+</Document>
