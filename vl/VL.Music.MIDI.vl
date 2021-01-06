@@ -2,7 +2,9 @@
 <Document xmlns:p="property" Id="RunDW8wZdllMx03vtWXy0t" LanguageVersion="2020.3.0.129" Version="0.128">
   <NugetDependency Id="IV566cS2jJgPWVI7NakWa2" Location="VL.CoreLib" Version="2020.3.0-0129-g9910d9a3ec" />
   <Patch Id="R73Z3v6K4bnPgqZh6hwdMs">
-    <Canvas Id="UM0ts1tYOyKPeuLxiTWhV4" DefaultCategory="Music.MIDI" CanvasType="FullCategory" />
+    <Canvas Id="UM0ts1tYOyKPeuLxiTWhV4" DefaultCategory="Music.MIDI" CanvasType="FullCategory">
+      <Canvas Id="Opl0tJiWQrROkvKqB2rMe7" Name="Analysis" Position="426,256" BordersChecked="false" />
+    </Canvas>
     <!--
 
     ************************ Application ************************

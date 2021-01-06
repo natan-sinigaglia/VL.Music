@@ -31,5 +31,7 @@
   </Patch>
   <NugetDependency Id="VpmQEMq3sl6LgSHgKicPXd" Location="VL.Stride" Version="0.8.142-gad8b728d9c" />
   <DocumentDependency Id="J7mr1iPGymKLpVhiNkyMDk" Location="./vl/VL.Music.MIDI.vl" />
-  <DocumentDependency Id="U7gRcFTyFj3OUdYFJVBdIf" Location="./vl/VL.Music.AudioAnalysis.vl" />
+  <DocumentDependency Id="RAbZoemkaYXL2zQduvJHSY" Location="./vl/VL.Music.Theory.vl" />
+  <DocumentDependency Id="OsxwELR1BiDNuhqqDqykcD" Location="./vl/VL.Music.Audio.vl" />
+  <DocumentDependency Id="Os5p6dmzBM5M8uOOy2AMhk" Location="./vl/VL.Music.Core.vl" />
 </Document>

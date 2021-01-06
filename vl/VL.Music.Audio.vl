@@ -2,26 +2,28 @@
 <Document xmlns:p="property" Id="IT25mMPWbZHMQjyhDrCl43" LanguageVersion="2020.3.0.129" Version="0.128">
   <NugetDependency Id="OYNTJjI6uvYPskONw813z5" Location="VL.CoreLib" Version="2020.3.0-0129-g9910d9a3ec" />
   <Patch Id="E7XFXCJ1KhyNylSNrckJwE">
-    <Canvas Id="NQiYHrdwQFoQUu3aShNhYH" DefaultCategory="Music.AudioAnalysis" CanvasType="FullCategory">
-      <!--
+    <Canvas Id="NQiYHrdwQFoQUu3aShNhYH" DefaultCategory="Music.Audio" CanvasType="FullCategory">
+      <Canvas Id="FR4x3E7dr17OskJQtufANL" Name="Analysis" Position="342,194">
+        <!--
 
     ************************ MonophonicPitchFilter ************************
 
 -->
-      <Node Name="MonophonicPitchFilter" Bounds="428,194" Id="G46AnmkhCMnPaYKnzOdFkT">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
-          <Choice Kind="ContainerDefinition" Name="Process" />
-        </p:NodeReference>
-        <Patch Id="MnczaGDLnW9PcZkBS1Sh4r">
-          <Canvas Id="V3DrzqfRkV4LnMo5eRD4Fz" CanvasType="Group" />
-          <Patch Id="E0GK2IF7MEvMlODLESXMdw" Name="Create" />
-          <Patch Id="ERUbxM5BaATMoF6SreVGtQ" Name="Update" />
-          <ProcessDefinition Id="LnuPuUYlbpaNdo3S8VvmCk">
-            <Fragment Id="AITJrezdipJMpIS2fr6kRD" Patch="E0GK2IF7MEvMlODLESXMdw" Enabled="true" />
-            <Fragment Id="DlVyYpq3p5IPabr2tdIYlQ" Patch="ERUbxM5BaATMoF6SreVGtQ" Enabled="true" />
-          </ProcessDefinition>
-        </Patch>
-      </Node>
+        <Node Name="MonophonicPitchFilter" Bounds="248,135" Id="U9gMQGhjdv8OMFdJxFS7SO">
+          <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+            <Choice Kind="ContainerDefinition" Name="Process" />
+          </p:NodeReference>
+          <Patch Id="MGDPpNAq7vwOVWtPTrBW28">
+            <Canvas Id="NUXEggMPbW6PXVwAkLPT2G" CanvasType="Group" />
+            <Patch Id="MuFCGVI6hJNNCIOZ8QkX0g" Name="Create" />
+            <Patch Id="DCizQpqCdxKOiy1ckpkkod" Name="Update" />
+            <ProcessDefinition Id="S2ll5SePqsROjnXU5rKZAA">
+              <Fragment Id="IkRrKmA0fVSLcVvQ3mSENM" Patch="MuFCGVI6hJNNCIOZ8QkX0g" Enabled="true" />
+              <Fragment Id="DT7PfDXnXkaN4U1rAbBfsy" Patch="DCizQpqCdxKOiy1ckpkkod" Enabled="true" />
+            </ProcessDefinition>
+          </Patch>
+        </Node>
+      </Canvas>
     </Canvas>
     <!--
 
