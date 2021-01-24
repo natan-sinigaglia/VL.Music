@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" Id="CAbFiDPoNkQNMPC7z4bo8r" LanguageVersion="2020.2.4.333" Version="0.128">
+  <NugetDependency Id="GwDQL7mH6knPcR66mwTi0Q" Location="VL.CoreLib" Version="2020.2.4" />
+  <Patch Id="HcrAJEBnF4OM1AkNHxn2Sc">
+    <Canvas Id="VFilKfdbC6eP1MStei4laY" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="M7O1CkVgYx8MN1x5coHXBK">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <FullNameCategoryReference ID="Primitive" />
+      </p:NodeReference>
+      <Patch Id="VaDn0sFBnmrP3eIkNLm7zh">
+        <Canvas Id="HHUJQ62ztjZNFvuSE294ph" CanvasType="Group">
+          <Node Bounds="224,317,84,19" Id="P3bRjKgK4DAQQHaikltL5s">
+            <p:NodeReference LastCategoryFullName="Harmony.Editor" LastSymbolSource="VL.Harmony.MusicTheory.Editor.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="HarmonyEditor" />
+            </p:NodeReference>
+            <Pin Id="T4we9bWC2d0QU9TaLh6lyv" Name="HarmonyLibraryPath" Kind="InputPin" />
+            <Pin Id="CslE6N1pSVJNJczQBzHYRe" Name="Refresh Scales" Kind="InputPin" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="LWZonFDI1SNNhBBtiNlZ1Y" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="223,408,58,19" Id="QAR6oFGgxHPOCAlIGFcIjI">
+            <p:NodeReference LastCategoryFullName="VL.Elementa" LastSymbolSource="VL.Elementa.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Elementa" />
+            </p:NodeReference>
+            <Pin Id="DQoK8tE58jLOIA7mEXo3y7" Name="Input" Kind="InputPin" />
+            <Pin Id="GNPGcgAdp8LOCcbKOHsBJ4" Name="Output" Kind="OutputPin" />
+            <Pin Id="PDWHMsAfDA6L9jfBLRZ4Rq" Name="Context" Kind="OutputPin" />
+            <Pin Id="Igk1FVC2hJJOBAcAf6BiEO" Name="Root Components" Kind="InputPin" />
+          </Node>
+          <Node Bounds="163,574,185,19" Id="MvE8KBAE66OMvTgXNFoFqs">
+            <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Renderer" />
+            </p:NodeReference>
+            <Pin Id="PvX0ydxL4HWOFlV6SqmhqG" Name="Bounds" Kind="InputPin" DefaultValue="1360, 62, 662, 718">
+              <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastSymbolSource="System.Drawing.dll">
+                <Choice Kind="TypeFlag" Name="Rectangle" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="FcPHn85MR19Mmpv14Qobp1" Name="Save Bounds" Kind="InputPin" />
+            <Pin Id="MpaeSUUU1DeNJGCsHjahJR" Name="Bound to Document" Kind="InputPin" DefaultValue="True">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="Mi00SLWnuudPGWuOQM1tye" Name="Input" Kind="InputPin" />
+            <Pin Id="CC62Zot62qCL83W4r410iY" Name="Color" Kind="InputPin" DefaultValue="0.03480004, 0.09955207, 0.12, 1">
+              <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="RGBA" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="U5kRwa4cHV7NCtufUVLJKr" Name="Clear" Kind="InputPin" />
+            <Pin Id="NDrNlsEAoVPMnuK4OgZUio" Name="Space" Kind="InputPin" DefaultValue="DIPTopLeft">
+              <p:TypeAnnotation LastCategoryFullName="VL.Skia" LastSymbolSource="VL.Skia.dll">
+                <Choice Kind="TypeFlag" Name="CommonSpace" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="IVkJ2obz62sMkRCEoVnrp3" Name="Show Cursor" Kind="InputPin" />
+            <Pin Id="Fc5K3BxAHnJQHHzFPkmvjP" Name="VSync" Kind="InputPin" />
+            <Pin Id="IL4lo0jecTCMMz7PXSeuzG" Name="Enabled" Kind="InputPin" />
+            <Pin Id="SWdrNsiTrLrOTNVH2iLU6b" Name="Form" Kind="OutputPin" />
+            <Pin Id="R9RJrIwcfm7PpiFMcd2epG" Name="ClientBounds" Kind="OutputPin" />
+            <Pin Id="AKNop4Z9c5kNq4wBa8fOCE" Name="Render Time" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="346,319,137,19" Id="LpzczpO42j6PxPSRyBIZ0x">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Component.Processor" LastSymbolSource="VL.Elementa.Component.Style.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="StyleableProcessorSettings" />
+            </p:NodeReference>
+            <Pin Id="TJnBXCWsHNNMGkRe0zMcXb" Name="Force Compute Style" Kind="InputPin" />
+            <Pin Id="KPfF172dDm1OPPPAQFxPU9" Name="Start From Base StyleSheet" Kind="InputPin" />
+            <Pin Id="HiRozsGqCQUPnpw2GMKME0" Name="Custom StyleSheet" Kind="InputPin" />
+            <Pin Id="HmxALIlZcvsLBzfiR95kH8" Name="Custom Base StyleSheet" Kind="InputPin" />
+            <Pin Id="EncO4amWGf6Paw75ZyuUAC" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="432,275,59,19" Id="L1wJ6xQ6QUgMSEauCZZpGO">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Component.VL.Elementa.Style.Presets.Wireframe" LastSymbolSource="VL.Elementa.Component.Style.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Presets" />
+              <CategoryReference Kind="Category" Name="Wireframe" />
+              <Choice Kind="ProcessAppFlag" Name="ColdDark" />
+            </p:NodeReference>
+            <Pin Id="TBpL1KSdEazNMAyI3SxDyF" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="D7boogd8GiBPGwTST7rhcp" Bounds="348,357" />
+          <Node Bounds="224,270,87,19" Id="Ek9VWC7GzykNWouhFwbFrY">
+            <p:NodeReference LastCategoryFullName="System.Application" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="ApplicationPath" />
+            </p:NodeReference>
+            <Pin Id="OAbRw095rbPQZKRjaRcM8h" Name="Output" Kind="OutputPin" />
+          </Node>
+        </Canvas>
+        <Patch Id="VzqjKNvc4lBQWwVDVUjbiq" Name="Create" ParticipatingElements="E3jQU8kC00oPsoIbTrdlAV,MAubHTnsigJNrDo3Up60wD" />
+        <Patch Id="Eng2HnH6geAOKGiOUkyWP3" Name="Update" />
+        <ProcessDefinition Id="IPgQt1nJ7fVMy0Mp3yDryT">
+          <Fragment Id="JRSzftIJHRzPRbtlXybzcv" Patch="VzqjKNvc4lBQWwVDVUjbiq" Enabled="true" />
+          <Fragment Id="HJ8UxjtyFMmPv0IX32aXSh" Patch="Eng2HnH6geAOKGiOUkyWP3" Enabled="true" />
+        </ProcessDefinition>
+        <Link Id="Mtxm2jNYa8hNVPu1ZTz97W" Ids="LWZonFDI1SNNhBBtiNlZ1Y,DQoK8tE58jLOIA7mEXo3y7" />
+        <Link Id="PPGRn0lIzLHN3qoSiGpJHd" Ids="GNPGcgAdp8LOCcbKOHsBJ4,Mi00SLWnuudPGWuOQM1tye" />
+        <Link Id="E3jQU8kC00oPsoIbTrdlAV" Ids="EncO4amWGf6Paw75ZyuUAC,D7boogd8GiBPGwTST7rhcp" />
+        <Link Id="UnfmqV0KCWULmvDOKnKWJr" Ids="TBpL1KSdEazNMAyI3SxDyF,HiRozsGqCQUPnpw2GMKME0" />
+        <Link Id="MAubHTnsigJNrDo3Up60wD" Ids="TBpL1KSdEazNMAyI3SxDyF,HmxALIlZcvsLBzfiR95kH8" />
+        <Link Id="RfNt6n6tEgdN1HeuNQRYFF" Ids="D7boogd8GiBPGwTST7rhcp,Igk1FVC2hJJOBAcAf6BiEO" />
+        <Link Id="Hf2UuiSWT2zMw2CHCpAHjP" Ids="OAbRw095rbPQZKRjaRcM8h,T4we9bWC2d0QU9TaLh6lyv" />
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="N9df16aYqiJN9L1qmzeqiE" Location="VL.Skia" Version="2020.2.4" />
+  <NugetDependency Id="AqIzr2ZNkAMLvdKjxHq8wx" Location="VL.Elementa" Version="4.0.4" />
+  <DocumentDependency Id="HYWxfzH4hdqNz5GXoFAWea" Location="./vl/VL.Harmony.MusicTheory.Editor.vl" />
+</Document>
