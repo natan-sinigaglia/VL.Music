@@ -25,11 +25,6 @@
         </Canvas>
         <Patch Id="TPjSYiIAUwYO9DIrCdhBYu" Name="Create" />
         <Patch Id="UKIW7Tkig2eNl0jSKYzi4C" Name="Update" />
-        <!--
-
-    ************************  ************************
-
--->
         <ProcessDefinition Id="B1sWy0nzXVFNn4ZKHLl9UW">
           <Fragment Id="L2OwB3bDQQwOHULZxisi0C" Patch="TPjSYiIAUwYO9DIrCdhBYu" Enabled="true" />
           <Fragment Id="UifwS05oL01PxuPIeCwKQc" Patch="UKIW7Tkig2eNl0jSKYzi4C" Enabled="true" />
