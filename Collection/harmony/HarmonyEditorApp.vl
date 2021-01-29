@@ -43,7 +43,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="PvX0ydxL4HWOFlV6SqmhqG" Name="Bounds" Kind="InputPin" DefaultValue="1360, 62, 662, 718">
+            <Pin Id="PvX0ydxL4HWOFlV6SqmhqG" Name="Bounds" Kind="InputPin" DefaultValue="1360, 62, 662, 596">
               <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastSymbolSource="System.Drawing.dll">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -67,7 +67,11 @@
               </p:TypeAnnotation>
             </Pin>
             <Pin Id="IVkJ2obz62sMkRCEoVnrp3" Name="Show Cursor" Kind="InputPin" />
-            <Pin Id="Fc5K3BxAHnJQHHzFPkmvjP" Name="VSync" Kind="InputPin" />
+            <Pin Id="Fc5K3BxAHnJQHHzFPkmvjP" Name="VSync" Kind="InputPin" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
             <Pin Id="IL4lo0jecTCMMz7PXSeuzG" Name="Enabled" Kind="InputPin" />
             <Pin Id="SWdrNsiTrLrOTNVH2iLU6b" Name="Form" Kind="OutputPin" />
             <Pin Id="R9RJrIwcfm7PpiFMcd2epG" Name="ClientBounds" Kind="OutputPin" />
