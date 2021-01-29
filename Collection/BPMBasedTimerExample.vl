@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" Id="FKYwm64Ei6RNPQtlhZmjA5" LanguageVersion="2020.2.4.333" Version="0.128">
+  <NugetDependency Id="PnaEfpM3fEwLHbh3DxChC7" Location="VL.CoreLib" Version="2020.2.4" />
+  <Patch Id="KmNX6E7TuEELHZ4HZfoxCF">
+    <Canvas Id="EnGhPcwHBTlPbxfZBMgB6i" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="Fkh691edt5wQLraGcxPapj">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <FullNameCategoryReference ID="Primitive" />
+      </p:NodeReference>
+      <Patch Id="DZENgMjbYvnNRTRXeosuAn">
+        <Canvas Id="AIN2gtV0uGFMc4G3TjjQdY" CanvasType="Group">
+          <Node Bounds="311,370" Id="Tycb1owWaPuPJRIUxtf7LU">
+            <p:NodeReference LastCategoryFullName="Music.MIDI.Utils.App" LastSymbolSource="VL.Music.MIDI.Utils.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="SequencerExample" />
+            </p:NodeReference>
+            <Pin Id="MUe1rxMCMBONmegXfdkmnS" Name="Update" Kind="ApplyPin" />
+          </Node>
+        </Canvas>
+        <Patch Id="TPjSYiIAUwYO9DIrCdhBYu" Name="Create" />
+        <Patch Id="UKIW7Tkig2eNl0jSKYzi4C" Name="Update" />
+        <!--
+
+    ************************  ************************
+
+-->
+        <ProcessDefinition Id="B1sWy0nzXVFNn4ZKHLl9UW">
+          <Fragment Id="L2OwB3bDQQwOHULZxisi0C" Patch="TPjSYiIAUwYO9DIrCdhBYu" Enabled="true" />
+          <Fragment Id="UifwS05oL01PxuPIeCwKQc" Patch="UKIW7Tkig2eNl0jSKYzi4C" Enabled="true" />
+        </ProcessDefinition>
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="Q0RHQ4fq8mJP4kPN2RD1AV" Location="VL.Skia" Version="2020.2.4" />
+  <DocumentDependency Id="QFRhufA7AlRMqxiPSAEHai" Location="./VL.Music.MIDI.Utils.vl" />
+</Document>
