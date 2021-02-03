@@ -2,7 +2,7 @@
 <Document xmlns:p="property" Id="CAbFiDPoNkQNMPC7z4bo8r" LanguageVersion="2020.2.4.333" Version="0.128">
   <NugetDependency Id="GwDQL7mH6knPcR66mwTi0Q" Location="VL.CoreLib" Version="2020.2.4" />
   <Patch Id="HcrAJEBnF4OM1AkNHxn2Sc">
-    <Canvas Id="VFilKfdbC6eP1MStei4laY" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <Canvas Id="VFilKfdbC6eP1MStei4laY" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
 
     ************************ Application ************************
