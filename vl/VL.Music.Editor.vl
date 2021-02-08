@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="R8wzUIY0ZGKNIbeNLtyoeZ" LanguageVersion="2020.3.0.129" Version="0.128">
-  <NugetDependency Id="IV566cS2jJgPWVI7NakWa2" Location="VL.CoreLib" Version="2020.3.0-0129-g9910d9a3ec" />
+<Document xmlns:p="property" Id="R8wzUIY0ZGKNIbeNLtyoeZ" LanguageVersion="2020.1.7.184" Version="0.128">
+  <NugetDependency Id="IV566cS2jJgPWVI7NakWa2" Location="VL.CoreLib" Version="2020.1.7" />
   <Patch Id="R73Z3v6K4bnPgqZh6hwdMs">
     <Canvas Id="UM0ts1tYOyKPeuLxiTWhV4" DefaultCategory="Music.MIDI" CanvasType="FullCategory">
-      <Canvas Id="Opl0tJiWQrROkvKqB2rMe7" Name="Analysis" Position="426,256" BordersChecked="false" />
+      <Canvas Id="Opl0tJiWQrROkvKqB2rMe7" Name="Analysis" Position="426,256" />
     </Canvas>
     <!--
 

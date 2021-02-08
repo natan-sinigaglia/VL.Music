@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="HTK7ZiIC97hQcEu1ZsweU7" LanguageVersion="2020.3.0.139" Version="0.128">
-  <NugetDependency Id="OtNFfaw1RC2NkDOg6Pn59f" Location="VL.CoreLib" Version="2020.3.0-0139-ga10abf086d" />
+<Document xmlns:p="property" Id="HTK7ZiIC97hQcEu1ZsweU7" LanguageVersion="2020.1.7.184" Version="0.128">
+  <NugetDependency Id="OtNFfaw1RC2NkDOg6Pn59f" Location="VL.CoreLib" Version="2020.1.7" />
   <Patch Id="RsjJn6jHigJQXkIx61cWGL">
     <Canvas Id="RkjAlkRkTiWPVIyRiVVEaL" DefaultCategory="Music.Core" CanvasType="FullCategory">
       <Canvas Id="Uu3DKpMxP5tN3K8WZYURJv" Name="Math" Position="332,210">
@@ -4438,5 +4438,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="H5HMZ8hZuGQPgmAtWVijpU" Location="VL.IO.Midi" Version="1.0.2" />
+  <NugetDependency Id="H5HMZ8hZuGQPgmAtWVijpU" Location="VL.IO.Midi" Version="2020.1.7" />
 </Document>
