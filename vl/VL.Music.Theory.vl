@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="E4EW9ouyV3QM0V02ETQZW6" LanguageVersion="2020.1.7.184" Version="0.128">
-  <NugetDependency Id="SlELeXeM3wtPkkyfAz4zQy" Location="VL.CoreLib" Version="2020.1.7" />
+<Document xmlns:p="property" Id="E4EW9ouyV3QM0V02ETQZW6" LanguageVersion="2021.3.0.61" Version="0.128">
+  <NugetDependency Id="SlELeXeM3wtPkkyfAz4zQy" Location="VL.CoreLib" Version="2021.3.0-0061-gda7d0b07e5" />
   <Patch Id="Myo4a0ydMcaL8hOgf4Sjza">
     <Canvas Id="L7WBxJHUUnbNhyI1gN2wP6" DefaultCategory="Music.Theory" CanvasType="FullCategory">
       <Canvas Id="VYvfYr1HQcBNlO81fwph9o" Name="Analysis" Position="354,198">
@@ -165,7 +165,7 @@
               </p:TypeAnnotation>
             </Pin>
             <Node Bounds="829,242,121,69" Id="LuN1iTBudncOkDNpRGvlvz">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -202,7 +202,7 @@
             <ControlPoint Id="JGNgoYzF0vOOaGd3c4SLlb" Bounds="1048,219" />
             <Link Id="E8oRcF3FPHyM9b5vUTL3cr" Ids="OUE10VKYQqjPwloE6uCUvy,JGNgoYzF0vOOaGd3c4SLlb" IsHidden="true" />
             <Node Bounds="839,346,477,310" Id="JhXL1vceNzPMTr4GcauOqD">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -216,7 +216,7 @@
                 <Patch Id="QTZqcnPnrX4OyXT5x9LYEv" Name="Update" ManuallySortedPins="true" />
                 <Patch Id="V7PcXXCgSMSLJKsup7IKsy" Name="Dispose" ManuallySortedPins="true" />
                 <Node Bounds="891,402,413,233" Id="NtZ573YG3LTMGCl8qnuXRI">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
                     <CategoryReference Kind="Category" Name="Primitive" />
@@ -254,7 +254,7 @@
                       <Pin Id="QwDcsuJJ6kgMgzIiwAGear" Name="Result" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="1048,524,148,73" Id="EpSWNc1hYYIOAW7atDyMAZ">
-                      <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                      <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                         <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                         <Choice Kind="ApplicationStatefulRegion" Name="If" />
                         <CategoryReference Kind="Category" Name="Primitive" />
@@ -295,7 +295,7 @@
               </Patch>
             </Node>
             <Node Bounds="1033,242,136,71" Id="RORu8wC2nJUQDTqJqZhZqQ">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
                 <CategoryReference Kind="Category" Name="Primitive" />

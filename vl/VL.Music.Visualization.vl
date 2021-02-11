@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="RunDW8wZdllMx03vtWXy0t" LanguageVersion="2020.1.7.184" Version="0.128">
-  <NugetDependency Id="IV566cS2jJgPWVI7NakWa2" Location="VL.CoreLib" Version="2020.1.7" />
+<Document xmlns:p="property" Id="RunDW8wZdllMx03vtWXy0t" LanguageVersion="2021.3.0.61" Version="0.128">
+  <NugetDependency Id="IV566cS2jJgPWVI7NakWa2" Location="VL.CoreLib" Version="2021.3.0-0061-gda7d0b07e5" />
   <Patch Id="R73Z3v6K4bnPgqZh6hwdMs">
     <Canvas Id="UM0ts1tYOyKPeuLxiTWhV4" DefaultCategory="Music.Visualization" CanvasType="FullCategory">
       <Canvas Id="Opl0tJiWQrROkvKqB2rMe7" Name="RGBA" Position="258,187">
@@ -163,7 +163,7 @@
           <Patch Id="Gy8LCtvTE3wNCgjyMALtYa">
             <Canvas Id="KCNfhuCepScMYQifj4mWGD" CanvasType="Group">
               <Node Bounds="151,348,94,19" Id="SZ3PFcuhFlkQdRDzLRLHqm">
-                <p:NodeReference LastCategoryFullName="Music.Core.Math" LastSymbolSource="VL.Music.Core.vl">
+                <p:NodeReference LastCategoryFullName="Music.Math" LastSymbolSource="VL.Music.Core.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="SampleCollection" />
                 </p:NodeReference>
@@ -303,7 +303,7 @@
             <Canvas Id="Oy2l9yrqYMjLsOPzq4Sm4B" CanvasType="Group">
               <ControlPoint Id="DXxmrUzLCuJPCJtDmUXE6z" Bounds="95,80" />
               <Node Bounds="93,102,82,19" Id="GtjXwVKEKHOQNeCWL44PZN">
-                <p:NodeReference LastCategoryFullName="Music.Core.Math" LastSymbolSource="VL.Music.Core.vl">
+                <p:NodeReference LastCategoryFullName="Music.Math" LastSymbolSource="VL.Music.Core.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="FracPartTween" />
                 </p:NodeReference>
@@ -325,7 +325,7 @@
                 <Pin Id="UC5fxT8QEjbPkxQunxxxlq" Name="Result" Kind="OutputPin" />
               </Node>
               <Node Bounds="313,216,125,19" Id="GvM03rCPTMMOmJQRk0tmy5">
-                <p:NodeReference LastCategoryFullName="Music.Core.Math" LastSymbolSource="VL.Music.Core.vl">
+                <p:NodeReference LastCategoryFullName="Music.Math" LastSymbolSource="VL.Music.Core.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="MapTween" />
                 </p:NodeReference>
@@ -475,7 +475,7 @@
             <ControlPoint Id="Ctg4iRi9vk3O90E0XEEFNh" Bounds="967,324" />
             <Link Id="MHhB3YIZJ2eNl3Q3fjq3qH" Ids="B3Mdbf59ZcOMVOO9vL6p6P,Ctg4iRi9vk3O90E0XEEFNh" IsHidden="true" />
             <Node Bounds="929,210,66,19" Id="MmhXdcNC3F8NdfBcEaifUs">
-              <p:NodeReference LastCategoryFullName="Music.Core.Math" LastSymbolSource="VL.Music.Core.vl">
+              <p:NodeReference LastCategoryFullName="Music.Math" LastSymbolSource="VL.Music.Core.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="MapToUnit" />
               </p:NodeReference>
@@ -488,7 +488,7 @@
             <Link Id="Vv75QZ3iGSULIVQf1m1KJW" Ids="CaNLbgkvo0KM2dwsZn2FRy,FywfFSC7cEaLecMRXdfPRf" />
             <Link Id="B10eto7MLjZMlXQMesoUPQ" Ids="HGCSt7OF0UHOoa3g32LpyZ,HsjnKax38yfLtMtGEGKZ3l" />
             <Node Bounds="929,366,77,19" Id="JrOeI30CN0kO52umyL3wop">
-              <p:NodeReference LastCategoryFullName="Music.Core.Math" LastSymbolSource="VL.Music.Core.vl">
+              <p:NodeReference LastCategoryFullName="Music.Math" LastSymbolSource="VL.Music.Core.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="MapFromUnit" />
               </p:NodeReference>
@@ -1661,7 +1661,7 @@
                         <Pin Id="NanFmEmRWTFPoYILYCRuXn" Name="Output" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="241,1039,85,19" Id="JxHJqbIaX0EN2POHVcQeZ2">
-                        <p:NodeReference LastCategoryFullName="Music.Core.Math" LastSymbolSource="VL.Music.Core.vl">
+                        <p:NodeReference LastCategoryFullName="Music.Math" LastSymbolSource="VL.Music.Core.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="Map (Rectangle)" />
                         </p:NodeReference>
@@ -2154,7 +2154,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="AvqyMWYxdv8NwXXyybaQHU" Location="VL.Stride" Version="0.9.67-g6eaf8ecb02" />
+  <NugetDependency Id="AvqyMWYxdv8NwXXyybaQHU" Location="VL.Stride" Version="0.9.69-g4e3d47610f" />
   <DocumentDependency Id="NowtAcvKzDhM3p9eHveysx" Location="./VL.Music.Core.vl" />
-  <NugetDependency Id="NtzJfjcIieYOKTD9Ce62U7" Location="VL.Skia" Version="2020.1.7" />
+  <NugetDependency Id="NtzJfjcIieYOKTD9Ce62U7" Location="VL.Skia" Version="2021.3.0-0061-gda7d0b07e5" />
 </Document>

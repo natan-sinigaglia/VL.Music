@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="IT25mMPWbZHMQjyhDrCl43" LanguageVersion="2020.1.7.184" Version="0.128">
-  <NugetDependency Id="OYNTJjI6uvYPskONw813z5" Location="VL.CoreLib" Version="2020.1.7" />
+<Document xmlns:p="property" Id="IT25mMPWbZHMQjyhDrCl43" LanguageVersion="2021.3.0.61" Version="0.128">
+  <NugetDependency Id="OYNTJjI6uvYPskONw813z5" Location="VL.CoreLib" Version="2021.3.0-0061-gda7d0b07e5" />
   <Patch Id="E7XFXCJ1KhyNylSNrckJwE">
     <Canvas Id="NQiYHrdwQFoQUu3aShNhYH" DefaultCategory="Music.Generator" CanvasType="FullCategory">
       <Canvas Id="FR4x3E7dr17OskJQtufANL" Name="Analysis" Position="342,194">
@@ -4099,7 +4099,7 @@
                 <Pin Id="Jjk6bjnyE9rOI3Bh2TqSpX" Name="Output" Kind="StateOutputPin" />
               </Node>
               <Node Bounds="414,526,41,37" Id="JesZjG2omhWMm8gJHJ2BPl">
-                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                   <Choice Kind="RegionFlag" Name="Region" Fixed="true" />
                   <Choice Kind="ApplicationStatefulRegion" Name="If" />
                 </p:NodeReference>
@@ -4456,7 +4456,7 @@
                 <Pin Id="BMMMnP2yfVCMfWgD2EFUJL" Name="Result" Kind="OutputPin" />
               </Node>
               <Node Bounds="40,407,75,106" Id="TNYQ9tron0BMqhdUViw6gv">
-                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                   <Choice Kind="RegionFlag" Name="Region" Fixed="true" />
                   <Choice Kind="ApplicationStatefulRegion" Name="Repeat" />
                   <CategoryReference Kind="Category" Name="Primitive" NeedsToBeDirectParent="true" />
@@ -4616,7 +4616,7 @@
             <ControlPoint Id="KT1yJ8nwlUyMB61Eo5aag8" Bounds="409,691" />
             <Link Id="TXvC7QMttB2LBdqq3kwxtc" Ids="KT1yJ8nwlUyMB61Eo5aag8,KjiijV6YrbUNZeBYmbYS0P" IsHidden="true" />
             <Node Bounds="397,583,531,94" Id="S8lycNsArGCLNNZG206adM">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
                 <FullNameCategoryReference ID="Primitive" />
               </p:NodeReference>
@@ -4716,7 +4716,7 @@
             <Pin Id="B45jIh30uFkO1OSX8JQspi" Name="Volume" Kind="OutputPin" Bounds="809,604" />
             <Link Id="FHghfeh1aMNMkw8y7eVlkc" Ids="BdcErEJu3U7LUZvS4kQRAg,B45jIh30uFkO1OSX8JQspi" IsHidden="true" />
             <Node Bounds="412,807,90,79" Id="SKdoH6pXzlmON5FKriRWXV">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
                 <FullNameCategoryReference ID="Primitive" />
               </p:NodeReference>
@@ -4763,7 +4763,7 @@
             <Pin Id="FDg2iCXfIB5PFsGG41nVLU" Name="Color" Kind="OutputPin" Bounds="809,604" />
             <Link Id="MpO1SbFYO1DLW3Fi3YdGEP" Ids="CmBPjPaDWhMLTnec3J8KbU,FDg2iCXfIB5PFsGG41nVLU" IsHidden="true" />
             <Node Bounds="618,807,106,79" Id="CNtDsHWzVWwOqCyj6B1HzO">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
                 <FullNameCategoryReference ID="Primitive" />
               </p:NodeReference>
@@ -4815,8 +4815,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="VfbWR3eAfOhMCjS3kM7z7y" Location="VL.Stride" Version="0.8.153-g91bcea62d8" />
+  <NugetDependency Id="VfbWR3eAfOhMCjS3kM7z7y" Location="VL.Stride" Version="0.9.69-g4e3d47610f" />
   <DocumentDependency Id="GcTI3nqhfeUOfDdvzkShtI" Location="./VL.Music.Core.vl" />
   <DocumentDependency Id="FatVOC8nwd5LKMuWlTKEbv" Location="./VL.Music.Theory.vl" />
-  <NugetDependency Id="JvXRkkbiUeSOQ0v90da1GQ" Location="VL.IO.Midi" Version="2020.1.7" />
+  <NugetDependency Id="JvXRkkbiUeSOQ0v90da1GQ" Location="VL.IO.Midi" Version="1.0.2" />
 </Document>
