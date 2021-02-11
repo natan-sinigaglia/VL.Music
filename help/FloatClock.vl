@@ -683,5 +683,5 @@
     </Node>
   </Patch>
   <NugetDependency Id="Ss8nPkyotQVPGFPvZwkW5U" Location="VL.CoreLib" Version="2021.3.0-0054-g4a41a1cad5" />
-  <DocumentDependency Id="VntzIJ8PFrmLH3rvYuHBud" Location="../../VL.Music.vl" />
+  <NugetDependency Id="Akkh3rwztiPLt1bNAesMfi" Location="VL.Music" Version="0.0.0.0" />
 </Document>
