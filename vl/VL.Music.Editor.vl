@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="R8wzUIY0ZGKNIbeNLtyoeZ" LanguageVersion="2021.3.0.61" Version="0.128">
-  <NugetDependency Id="IV566cS2jJgPWVI7NakWa2" Location="VL.CoreLib" Version="2021.3.0-0061-gda7d0b07e5" />
+<Document xmlns:p="property" Id="R8wzUIY0ZGKNIbeNLtyoeZ" LanguageVersion="2021.3.0.67" Version="0.128">
+  <NugetDependency Id="IV566cS2jJgPWVI7NakWa2" Location="VL.CoreLib" Version="2021.3.0-0067-gba8ae004c4" />
   <Patch Id="R73Z3v6K4bnPgqZh6hwdMs">
     <Canvas Id="UM0ts1tYOyKPeuLxiTWhV4" DefaultCategory="Music.MIDI" CanvasType="FullCategory">
       <Canvas Id="Opl0tJiWQrROkvKqB2rMe7" Name="Analysis" Position="426,256" />
@@ -26,6 +26,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="AvqyMWYxdv8NwXXyybaQHU" Location="VL.Stride" Version="0.9.69-g4e3d47610f" />
+  <NugetDependency Id="AvqyMWYxdv8NwXXyybaQHU" Location="VL.Stride" Version="0.9.83-g4d422f48ed" />
   <DocumentDependency Id="NowtAcvKzDhM3p9eHveysx" Location="./VL.Music.Core.vl" />
 </Document>
