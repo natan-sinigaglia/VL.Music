@@ -8493,7 +8493,7 @@
               </Node>
               <ControlPoint Id="KnwNfLRPlJHPS50tLmhEaw" Bounds="1950,262" />
               <Pad Id="VBpiHA82xPRN2yZgodZaBg" SlotId="FpPEIBjQ8DHN5sOLuMx8CG" Bounds="1950,211" />
-              <Node Bounds="782,290,51,26" Id="TT4mU43fXSQNeiOdHQqhma">
+              <Node Bounds="782,335,51,26" Id="TT4mU43fXSQNeiOdHQqhma">
                 <p:NodeReference LastCategoryFullName="Reactive.Subjects.Subject" LastSymbolSource="VL.Reactive.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="OnNext" />
@@ -8507,7 +8507,7 @@
                 </Pin>
                 <Pin Id="M04ZLBVg9kuQJNwaMzCCLl" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Node Bounds="525,279,51,26" Id="AuD6VxqwuJnNv7T4nnCISE">
+              <Node Bounds="525,324,51,26" Id="AuD6VxqwuJnNv7T4nnCISE">
                 <p:NodeReference LastCategoryFullName="Reactive.Subjects.Subject" LastSymbolSource="VL.Reactive.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="OnNext" />
@@ -8521,7 +8521,7 @@
                 </Pin>
                 <Pin Id="ENBz6aXIvO2MbvThQF2Nlr" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Node Bounds="1514,318,51,26" Id="BcYPDGdmma9Oy9a2vBCJ4c">
+              <Node Bounds="1514,393,51,26" Id="BcYPDGdmma9Oy9a2vBCJ4c">
                 <p:NodeReference LastCategoryFullName="Reactive.Subjects.Subject" LastSymbolSource="VL.Reactive.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="OnNext" />
@@ -8543,7 +8543,7 @@
                 </p:NodeReference>
                 <Pin Id="GXITULZzhn6QDYH887z9Xw" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Node Bounds="1052,338,51,26" Id="BF3kgBUj2izLsOyDjRNiws">
+              <Node Bounds="1052,398,51,26" Id="BF3kgBUj2izLsOyDjRNiws">
                 <p:NodeReference LastCategoryFullName="Reactive.Subjects.Subject" LastSymbolSource="VL.Reactive.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="OnNext" />
@@ -8558,10 +8558,10 @@
                 <Pin Id="E2GRg2u7DBxMxyzKRGkeJL" Name="Output" Kind="StateOutputPin" />
               </Node>
               <ControlPoint Id="VMQ3xcrbWLuOmnIqr3DsQp" Bounds="1146,224" />
-              <Pad Id="AWpxDKAvaR1N4SxsqZB1V2" SlotId="FpPEIBjQ8DHN5sOLuMx8CG" Bounds="1516,298" />
-              <Pad Id="Gne8BeI9v7oQDdgvjinDgA" SlotId="FpPEIBjQ8DHN5sOLuMx8CG" Bounds="1054,273" />
-              <Pad Id="CxGrZEo6A3GPhUO0gsjGVm" SlotId="FpPEIBjQ8DHN5sOLuMx8CG" Bounds="784,270" />
-              <Pad Id="LJ3nfBiZxhTNxALYwJI2mm" SlotId="FpPEIBjQ8DHN5sOLuMx8CG" Bounds="527,259" />
+              <Pad Id="AWpxDKAvaR1N4SxsqZB1V2" SlotId="FpPEIBjQ8DHN5sOLuMx8CG" Bounds="1516,373" />
+              <Pad Id="Gne8BeI9v7oQDdgvjinDgA" SlotId="FpPEIBjQ8DHN5sOLuMx8CG" Bounds="1054,333" />
+              <Pad Id="CxGrZEo6A3GPhUO0gsjGVm" SlotId="FpPEIBjQ8DHN5sOLuMx8CG" Bounds="784,315" />
+              <Pad Id="LJ3nfBiZxhTNxALYwJI2mm" SlotId="FpPEIBjQ8DHN5sOLuMx8CG" Bounds="527,304" />
               <Pad Id="SPqvUVEh1JnMWRLGRz2qfY" SlotId="OVLjUqlPJlbPwQuhO5BShS" Bounds="1658,810" />
               <Pad Id="IXPKTlliNPVPjgII1Mbsbp" SlotId="C6DT6fdiZY3Mw011RzaCtt" Bounds="157,254" />
               <Pad Id="PDHFNLtGnXZNXgyJjSy4SZ" SlotId="C6DT6fdiZY3Mw011RzaCtt" Bounds="175,896" />
@@ -8825,8 +8825,8 @@
               </Node>
               <Pad Id="K05lf7asOUWOq7LBiKefyi" SlotId="NwYINGNMyKkMYiHC10mXgA" Bounds="1866,1020" />
               <Pad Id="SNP5CZ064pnNOeIIL4y0Yg" SlotId="NwYINGNMyKkMYiHC10mXgA" Bounds="686,1012" />
-              <Overlay Id="Ja8iJHG8tTaMiz8Y2wX3jK" Name="Parent Commands" Bounds="849,1126,692,448" />
-              <Node Bounds="955,1238,557,302" Id="AuhbOLxtuiRNmq3GGVkWtj">
+              <Overlay Id="Ja8iJHG8tTaMiz8Y2wX3jK" Name="Parent Commands" Bounds="849,1126,692,500" />
+              <Node Bounds="955,1238,557,358" Id="AuhbOLxtuiRNmq3GGVkWtj">
                 <p:NodeReference LastCategoryFullName="Reactive" LastSymbolSource="VL.Reactive.vl">
                   <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="ForEach" />
@@ -9056,6 +9056,16 @@
                     <ControlPoint Id="C6cCLMLJkx2Nc7TvfgxgkN" Bounds="1402,1350" Alignment="Top" />
                     <ControlPoint Id="Jv6aITfJSoKMwkyfAMESkH" Bounds="1402,1515" Alignment="Bottom" />
                   </Node>
+                  <Node Bounds="1333,1550,73,26" Id="Euf1rO6R2HfLGKi0LQ2Zr6">
+                    <p:NodeReference LastCategoryFullName="Reactive.Subjects.BehaviorSubject" LastSymbolSource="VL.Reactive.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <Choice Kind="OperationCallFlag" Name="OnNext" />
+                      <CategoryReference Kind="ClassType" Name="BehaviorSubject" NeedsToBeDirectParent="true" />
+                    </p:NodeReference>
+                    <Pin Id="CQW8Dzmz5iBNyIqoRezVbw" Name="Input" Kind="StateInputPin" />
+                    <Pin Id="QjeeAJDZDMFOW6dlDpRXmF" Name="Value" Kind="InputPin" />
+                    <Pin Id="BhPFJzhjg7jQZnuwcuLy9O" Name="Output" Kind="StateOutputPin" />
+                  </Node>
                 </Patch>
               </Node>
               <Pad Id="Er7o3GIqrvDOToAYsJ8zGn" SlotId="C6DT6fdiZY3Mw011RzaCtt" Bounds="1041,1187" />
@@ -9239,7 +9249,7 @@
                 <Pin Id="LgZ6S1dVlTXMnQcmQY7JAU" Name="Output" Kind="StateOutputPin" />
                 <Pin Id="Dtc6ifto3VoLSu8YwzXuuF" Name="Playing" Kind="OutputPin" />
               </Node>
-              <Node Bounds="1098,307,45,19" Id="BJnMAt9L9KMPdSYtNPvgNm">
+              <Node Bounds="1098,367,45,19" Id="BJnMAt9L9KMPdSYtNPvgNm">
                 <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="+" />
@@ -9253,12 +9263,12 @@
                 <Pin Id="ENzSlHG6mPfMO2lYaeTNIJ" Name="Output" Kind="OutputPin" />
                 <Pin Id="SYwWq0g1BICLyJ1DmmYSiu" Name="Input 3" Kind="InputPin" />
               </Node>
-              <Pad Id="Ep2ySCSkveDNhPqWEiCk5C" Comment="" Bounds="1100,280,35,15" ShowValueBox="true" isIOBox="true" Value="SEEK">
+              <Pad Id="Ep2ySCSkveDNhPqWEiCk5C" Comment="" Bounds="1100,340,35,15" ShowValueBox="true" isIOBox="true" Value="SEEK">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="TypeFlag" Name="String" />
                 </p:TypeAnnotation>
               </Pad>
-              <Node Bounds="1150,272,55,19" Id="CSncT2dgTl6MloDorjQk2v">
+              <Node Bounds="1150,332,55,19" Id="CSncT2dgTl6MloDorjQk2v">
                 <p:NodeReference LastCategoryFullName="System.Conversion" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="ToString" />
@@ -9362,6 +9372,51 @@
                   </Node>
                 </Patch>
               </Node>
+              <Node Bounds="752,267,73,26" Id="Kdxln0z3dGuODzO18caUiW">
+                <p:NodeReference LastCategoryFullName="Reactive.Subjects.BehaviorSubject" LastSymbolSource="VL.Reactive.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="OnNext" />
+                  <CategoryReference Kind="ClassType" Name="BehaviorSubject" NeedsToBeDirectParent="true" />
+                </p:NodeReference>
+                <Pin Id="NEbORnAXXyhPiIclsz3EJq" Name="Input" Kind="StateInputPin" />
+                <Pin Id="CWbHInYFxGQOZrvAMyoPTH" Name="Value" Kind="InputPin" />
+                <Pin Id="HTN81Fjeo49OWExM0TuQf5" Name="Output" Kind="StateOutputPin" />
+              </Node>
+              <Pad Id="MDqRE7T3APILVZCYSnewwF" SlotId="Tv3gzLvX8oKNHZl9Lb6YQ0" Bounds="754,247" />
+              <Node Bounds="497,252,73,26" Id="KNSCpoIGQ3oN5MU3MKN8mT">
+                <p:NodeReference LastCategoryFullName="Reactive.Subjects.BehaviorSubject" LastSymbolSource="VL.Reactive.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="OnNext" />
+                  <CategoryReference Kind="ClassType" Name="BehaviorSubject" NeedsToBeDirectParent="true" />
+                </p:NodeReference>
+                <Pin Id="BKWR0Dv1PbePh5Er4FMcBg" Name="Input" Kind="StateInputPin" />
+                <Pin Id="El885fZ0uReOcJhPSLpHmm" Name="Value" Kind="InputPin" />
+                <Pin Id="AtMxSw9aHdpQUk7ms3S3zc" Name="Output" Kind="StateOutputPin" />
+              </Node>
+              <Pad Id="MQVdJAkYMT7PUqlMNWoRQG" SlotId="Tv3gzLvX8oKNHZl9Lb6YQ0" Bounds="499,232" />
+              <Node Bounds="1029,274,73,26" Id="Mcqf9IILImQQNC8OwJCifi">
+                <p:NodeReference LastCategoryFullName="Reactive.Subjects.BehaviorSubject" LastSymbolSource="VL.Reactive.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="OnNext" />
+                  <CategoryReference Kind="ClassType" Name="BehaviorSubject" NeedsToBeDirectParent="true" />
+                </p:NodeReference>
+                <Pin Id="LE92UV1FBbzM0aXx0ZqTr5" Name="Input" Kind="StateInputPin" />
+                <Pin Id="HP1NFyVOEHjPzXZAdcxqCS" Name="Value" Kind="InputPin" />
+                <Pin Id="HH6jQc2FasCPIMQwJkJ2K1" Name="Output" Kind="StateOutputPin" />
+              </Node>
+              <Pad Id="SHJ1TqKDKGiNkxtAJpi8ME" SlotId="Tv3gzLvX8oKNHZl9Lb6YQ0" Bounds="1031,254" />
+              <Node Bounds="1489,296,73,26" Id="N0jBgyYzlfMLWykyXPrkEY">
+                <p:NodeReference LastCategoryFullName="Reactive.Subjects.BehaviorSubject" LastSymbolSource="VL.Reactive.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="OnNext" />
+                  <CategoryReference Kind="ClassType" Name="BehaviorSubject" NeedsToBeDirectParent="true" />
+                </p:NodeReference>
+                <Pin Id="Bvh4jk9MptLMAxRN05F5MZ" Name="Input" Kind="StateInputPin" />
+                <Pin Id="KKTps6lRIhiOY3TPO0qQJe" Name="Value" Kind="InputPin" />
+                <Pin Id="HK67q6TtQjLQUtZ5LklJT5" Name="Output" Kind="StateOutputPin" />
+              </Node>
+              <Pad Id="JuiIciFhZkfO5lY84eMDP1" SlotId="Tv3gzLvX8oKNHZl9Lb6YQ0" Bounds="1491,276" />
+              <Pad Id="AgywwEk5xnTNhd77N4PP8p" SlotId="Tv3gzLvX8oKNHZl9Lb6YQ0" Bounds="1614,1524" />
             </Canvas>
             <Link Id="C9SGuEHlg78NeIbRGHz9ZL" Ids="Nclih57cORJMij5TLUqyV1,PbQNRNsIB8bLgUNoJnHomd" IsHidden="true" />
             <Link Id="JWJ01q8TTHiMC8G2YTwyXQ" Ids="VzEjfm29Ot4MRvKznbwNrm,N9T6K18c54aLoIJB69NNa0" IsHidden="true" />
@@ -9561,7 +9616,6 @@
             <Link Id="NwCslWQx2KIM1ck3vn9jLE" Ids="UEnuGOkHZpvPJVSzm7T1Dk,RssKaK533iYNV92lj61fZq" />
             <Link Id="Arqdz6kj5iCQCVYGzemTKN" Ids="UEnuGOkHZpvPJVSzm7T1Dk,DLEAXz4pQexQNkwetv87xH" />
             <Link Id="E0y4BHRCHDKMobNh6CuKDj" Ids="MUCZ2UXlQiELV7oreokGst,CjpAVEfEcBIOgcD3x7ectF" />
-            <Link Id="BtV2oMov2xFLks7eFIGapa" Ids="Dtc6ifto3VoLSu8YwzXuuF,EqlzmnvTlybNqB9FbzPiXO" />
             <Link Id="Vry7sjtRK4rOEhJMAkYoDF" Ids="VY7xPZI6cdBP8AIjsvUrcK,MFynmkO7rxvPjQj96zEjWi" />
             <Link Id="VFzq0UCCldjN6AJkCFUItH" Ids="MI23uKEO9oWLjODxecQyPB,LU33hKjWRdBOnJ8wG3o0on" />
             <Link Id="HgmT8j6DyLtL73qk61kMmG" Ids="VY7xPZI6cdBP8AIjsvUrcK,NXJNVnJ9a3GOi8gf6D055m" />
@@ -9660,6 +9714,16 @@
             <Link Id="T38iCfpAQcSL6nKzFxu9IV" Ids="Q4kvRPyKs9iQE5m1Kmzehk,GbCrCoWirBHPljc8uJTz8m" />
             <Link Id="SwBSc5icdTZMxETpRugxnA" Ids="H8TAyGjXqSKM0hnwYGs75p,Uo1XThDI4BWOPXyV6CUX2h" />
             <Link Id="LuEzEfV0jzVPRxNCuYRvVy" Ids="N8hyB027v23NurFh1EOVp3,KkVLS7WdxrHLuyzU0fz8nn" />
+            <Link Id="KtbCrQkq8LAO9okpSxmdcj" Ids="MDqRE7T3APILVZCYSnewwF,NEbORnAXXyhPiIclsz3EJq" />
+            <Link Id="LKaI4DV8ERIPGE76X3kPtE" Ids="GFG4huFwApFNa8YJMm315B,CWbHInYFxGQOZrvAMyoPTH" />
+            <Link Id="FlxYpSwW32POEf9BKikqpk" Ids="MQVdJAkYMT7PUqlMNWoRQG,BKWR0Dv1PbePh5Er4FMcBg" />
+            <Link Id="KsU6g7rVaRTP4PtascEcGv" Ids="LO0ATanllQOMnuTdzsodal,El885fZ0uReOcJhPSLpHmm" />
+            <Link Id="KAhd3naIFerMsh59qzvPKa" Ids="SHJ1TqKDKGiNkxtAJpi8ME,LE92UV1FBbzM0aXx0ZqTr5" />
+            <Link Id="SNYYjmArkU1LXGpdjHJyWp" Ids="MwRCJJwZyl5NB7TvdC4MXB,HP1NFyVOEHjPzXZAdcxqCS" />
+            <Link Id="SzpFaR20qlLQRt59QKkXDx" Ids="JuiIciFhZkfO5lY84eMDP1,Bvh4jk9MptLMAxRN05F5MZ" />
+            <Link Id="ATDnC8bO8XDLOxQIgn3QHS" Ids="HLy0YEjElVNP90hwl474bT,KKTps6lRIhiOY3TPO0qQJe" />
+            <Link Id="IGHbV9LPaa2OA80VY7iYqP" Ids="AgywwEk5xnTNhd77N4PP8p,CQW8Dzmz5iBNyIqoRezVbw" />
+            <Link Id="RoZYXsa51SDQGvLjtkXxT0" Ids="Jv6aITfJSoKMwkyfAMESkH,QjeeAJDZDMFOW6dlDpRXmF" />
           </Patch>
         </Node>
         <!--
