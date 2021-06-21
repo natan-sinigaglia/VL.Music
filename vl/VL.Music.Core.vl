@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="HTK7ZiIC97hQcEu1ZsweU7" LanguageVersion="2021.3.1.89" Version="0.128">
-  <NugetDependency Id="OtNFfaw1RC2NkDOg6Pn59f" Location="VL.CoreLib" Version="2021.3.1" />
+<Document xmlns:p="property" Id="HTK7ZiIC97hQcEu1ZsweU7" LanguageVersion="2021.4.0.110" Version="0.128">
+  <NugetDependency Id="OtNFfaw1RC2NkDOg6Pn59f" Location="VL.CoreLib" Version="2021.4.0-0110-gd1322231db" />
   <Patch Id="RsjJn6jHigJQXkIx61cWGL">
     <Canvas Id="RkjAlkRkTiWPVIyRiVVEaL" DefaultCategory="Music" CanvasType="FullCategory">
       <Canvas Id="Uu3DKpMxP5tN3K8WZYURJv" Name="Math" Position="332,210">
@@ -7055,7 +7055,7 @@
                 </Patch>
               </Node>
               <Node Bounds="2065,114,36,19" Id="QxPAutFbaCINkq4JnJhcif">
-                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="This" />
                   <CategoryReference Kind="Category" Name="Primitive" />
@@ -7086,7 +7086,7 @@
                 </Patch>
               </Node>
               <Node Bounds="1720,148,36,19" Id="So89T5yQ8OyPszvcqiatLO">
-                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="This" />
                   <CategoryReference Kind="Category" Name="Primitive" />
@@ -7118,7 +7118,7 @@
                 </Patch>
               </Node>
               <Node Bounds="1447,141,36,19" Id="VZeXbClGWsnNKKgDdwbeky">
-                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="This" />
                   <CategoryReference Kind="Category" Name="Primitive" />
@@ -7149,7 +7149,7 @@
                 </Patch>
               </Node>
               <Node Bounds="1144,154,36,19" Id="TDY0TgXNahhPmig9MdVvr9">
-                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="This" />
                   <CategoryReference Kind="Category" Name="Primitive" />
@@ -7375,6 +7375,7 @@
               <Fragment Id="KUnzwOrYCneN9iSqhdqTdB" Patch="H9kgUkFHKSoNqkNnpaDeul" />
               <Fragment Id="M1D1kERRlJFMJ3HKF0zCJQ" Patch="TCBNmIkPpcMPX5CGYX9LtB" />
               <Fragment Id="Stm7z1e1mgRPqhbIRMkd8f" Patch="B0jcsEluS8SOkQy1GskQGZ" />
+              <Fragment Id="SJrj1wTsf2tQPMvOLwIxm0" Patch="CNvhEMN3LlNNb9Lwtzu8cU" />
             </ProcessDefinition>
             <Link Id="KCBjlP4FFtXNr4blvRII26" Ids="BzdabVYQXPlMRmXJUX08tR,SUuhOpXn4JkQGjFBbEKWOi" />
             <Link Id="U1qeUvKuDYcN3RSrlNZmrd" Ids="DeOIKJ1MO82LLxqPXZjPpy,BzdabVYQXPlMRmXJUX08tR" IsHidden="true" />
@@ -7510,6 +7511,7 @@
             </Patch>
             <Link Id="M8MN7ApsbrEPptflltpG1E" Ids="RIOALSc6BLkOF8zakMTYVZ,Ul9hbdr3z9WNgZEDsRxedS" />
             <Link Id="MRu5vOH68uNLTgzZP11qwE" Ids="TcAKHHw1IMMOoKhKZhW2b7,Plq94FCuZNyLdCXyJspUCC" />
+            <Patch Id="CNvhEMN3LlNNb9Lwtzu8cU" Name="CreateDefault (Hidden)" />
           </Patch>
         </Node>
         <!--
@@ -9115,7 +9117,7 @@
               <Pad Id="KWDm1z03MbjN6ZAan4c0Xz" SlotId="C6DT6fdiZY3Mw011RzaCtt" Bounds="1054,207" />
               <Pad Id="Mr5YUfHE5MQLFQAeyC5Izr" SlotId="C6DT6fdiZY3Mw011RzaCtt" Bounds="1516,172" />
               <Node Bounds="1332,188,36,19" Id="BGLxrzzNU3CO7JSHrx0GPE">
-                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="This" />
                   <CategoryReference Kind="Category" Name="Primitive" />
@@ -9595,6 +9597,7 @@
               <Fragment Id="NS6KU04dNUrPtxIv8FWd9K" Patch="QbonXlC4MEiQXe6PjNz59Q" Enabled="true" />
               <Fragment Id="Qh9tB208O4ZPcEU8xNRHkf" Patch="IF7Ohp14M3YP0aQ3T50D9N" Enabled="true" />
               <Fragment Id="SQranZWBSxsNcSLDmqS8RG" Patch="AzRUwZ6BhNqNNMRwTGdcCw" />
+              <Fragment Id="LRpCDUadsn0QR1rq7h24zb" Patch="S4QSha32ZREPkHuTlVbbp0" />
             </ProcessDefinition>
             <Link Id="FthtfV5jZkMMaXX9JbbBsy" Ids="Jpbuf3hntLyL6sQEzBFCKs,Os9YkBrkZ7oNtPGHQPEQP6" />
             <Link Id="KZEt6DraE0fO4fG3vIZXze" Ids="HHebob9L8XqOh6i299SJ3s,LiPUinveQSQLYgKECP5lyj" IsHidden="true" />
@@ -9724,6 +9727,7 @@
             <Link Id="ATDnC8bO8XDLOxQIgn3QHS" Ids="HLy0YEjElVNP90hwl474bT,KKTps6lRIhiOY3TPO0qQJe" />
             <Link Id="IGHbV9LPaa2OA80VY7iYqP" Ids="AgywwEk5xnTNhd77N4PP8p,CQW8Dzmz5iBNyIqoRezVbw" />
             <Link Id="RoZYXsa51SDQGvLjtkXxT0" Ids="Jv6aITfJSoKMwkyfAMESkH,QjeeAJDZDMFOW6dlDpRXmF" />
+            <Patch Id="S4QSha32ZREPkHuTlVbbp0" Name="CreateDefault (Hidden)" />
           </Patch>
         </Node>
         <!--
@@ -9907,8 +9911,6 @@
                       <CategoryReference Kind="Category" Name="Primitive" />
                       <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                     </p:NodeReference>
-                    <Pin Id="FlWOi2dbrDkPRoQArTJCF9" Name="Force New Instance" Kind="InputPin" />
-                    <Pin Id="CojR9OF6SKMOPA7WeT0bnZ" Name="Singleton" Kind="OutputPin" />
                     <Patch Id="MjHG5KDQlhNNUqCw8rl8E7" Name="Producer" ManuallySortedPins="true">
                       <Pin Id="RMQXRIcm6ETPuyYjKEK6p8" Name="Result" Kind="OutputPin" />
                       <ControlPoint Id="IaX8BAX9NupOl7zbnYmH77" Bounds="442,593" />
@@ -9921,6 +9923,9 @@
                         <Pin Id="GsRi68lYvlCMN9pfZRnhgH" Name="Output" Kind="StateOutputPin" />
                       </Node>
                     </Patch>
+                    <Pin Id="FlWOi2dbrDkPRoQArTJCF9" Name="Force New Instance" Kind="InputPin" />
+                    <Pin Id="OL0KuxXDglcLBgV1BjvS4U" Name="On Stop" Kind="InputPin" />
+                    <Pin Id="CojR9OF6SKMOPA7WeT0bnZ" Name="Singleton" Kind="OutputPin" />
                   </Node>
                   <Link Id="NBVC7Qtwq8BLpwvHcORiV5" Ids="IaX8BAX9NupOl7zbnYmH77,RMQXRIcm6ETPuyYjKEK6p8" IsHidden="true" />
                   <Link Id="DXJ3Km8nyTZLwTsteu9RpX" Ids="GsRi68lYvlCMN9pfZRnhgH,IaX8BAX9NupOl7zbnYmH77" />
@@ -10152,8 +10157,6 @@
                       <CategoryReference Kind="Category" Name="Primitive" />
                       <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                     </p:NodeReference>
-                    <Pin Id="LiOoySbP7L5MaSFCHnSkB4" Name="Force New Instance" Kind="InputPin" />
-                    <Pin Id="NRv8UWyvIBGOeaTsQPzDKM" Name="Singleton" Kind="OutputPin" />
                     <Patch Id="IPtnbm8NDzCPjwzjXaf3Ol" Name="Producer" ManuallySortedPins="true">
                       <Pin Id="SxdDgbqJx6DOD15Zr86EJW" Name="Result" Kind="OutputPin">
                         <p:TypeAnnotation>
@@ -10170,6 +10173,9 @@
                         <Pin Id="Fq26lX2G1HrPHhobw46TF2" Name="Output" Kind="StateOutputPin" />
                       </Node>
                     </Patch>
+                    <Pin Id="LiOoySbP7L5MaSFCHnSkB4" Name="Force New Instance" Kind="InputPin" />
+                    <Pin Id="AMPrT0Xra1wPiwsy9CQ1Ux" Name="On Stop" Kind="InputPin" />
+                    <Pin Id="NRv8UWyvIBGOeaTsQPzDKM" Name="Singleton" Kind="OutputPin" />
                   </Node>
                   <Link Id="OliyIErJs4YQAXbbFK8egK" Ids="Ipwv7QNNel3PjkmYzZjzFV,SxdDgbqJx6DOD15Zr86EJW" IsHidden="true" />
                   <Link Id="DZsaStHrVMRNI5KUp4FUi6" Ids="Fq26lX2G1HrPHhobw46TF2,Ipwv7QNNel3PjkmYzZjzFV" />
@@ -11620,7 +11626,7 @@
                 </Patch>
               </Node>
               <Node Bounds="1153,166,36,19" Id="QkZAp2z1bX6QJoeGmW9wQh">
-                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="This" />
                   <CategoryReference Kind="Category" Name="Primitive" />
@@ -11652,7 +11658,7 @@
                 </Patch>
               </Node>
               <Node Bounds="851,168,36,19" Id="EjSpEM7KTnuPS7gJDwplrR">
-                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="This" />
                   <CategoryReference Kind="Category" Name="Primitive" />
@@ -11803,6 +11809,7 @@
               <Fragment Id="E44lj4NYjzMMArWWm29xbW" Patch="Lr5H84ZwbNoLJZN4T9n7ci" Enabled="true" />
               <Fragment Id="UtKgkUUVNQbOgzMb7GH5cf" Patch="G59ozecLbzTMuVo1hfCH5S" Enabled="true" />
               <Fragment Id="MEXverCnG4UNqRX0YFPAQa" Patch="PJBWIM9ik7uPuEvMo5D2Y3" />
+              <Fragment Id="M53Cd35OUOVN8zyxgcBhTU" Patch="NAzNQbdRmeGOjsgKftH8CZ" />
             </ProcessDefinition>
             <Link Id="Blli3kXaGWDM8ZCs8XE3mz" Ids="LAIwdy3ctUtNjQVuZDO5ei,GmIWBfMxEfaQOoEXMFSski" />
             <Link Id="GnnWAqsdUq7L0s1xzTIegK" Ids="OQQW3XLV7zbMn1eEIp6OB2,LAIwdy3ctUtNjQVuZDO5ei" IsHidden="true" />
@@ -11874,6 +11881,7 @@
             <Link Id="MEo0IFoCmYROaVCXvrjtnE" Ids="FGTRr0fCZqZPdZdi0ZnG7v,Bxjenee9cDpNg6alJDPzUo" />
             <Link Id="AcyxvOrGvOhNEQLnvIWtas" Ids="ORWPrSyeLtCM6zi53Xxd40,TBQxx2vBpf9MYYnRiho61h" />
             <Link Id="SbQ13TcdiAIL3GbhvA0Lot" Ids="JJZNjrzce0EM4E7orsnBFU,GmIWBfMxEfaQOoEXMFSski" />
+            <Patch Id="NAzNQbdRmeGOjsgKftH8CZ" Name="CreateDefault (Hidden)" />
           </Patch>
         </Node>
         <!--
@@ -12303,5 +12311,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="H5HMZ8hZuGQPgmAtWVijpU" Location="VL.IO.Midi" Version="1.0.2" />
+  <NugetDependency Id="H5HMZ8hZuGQPgmAtWVijpU" Location="VL.IO.Midi" Version="1.0.3" />
 </Document>
