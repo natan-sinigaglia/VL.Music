@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="RunDW8wZdllMx03vtWXy0t" LanguageVersion="2021.4.0.110" Version="0.128">
-  <NugetDependency Id="IV566cS2jJgPWVI7NakWa2" Location="VL.CoreLib" Version="2021.4.0-0110-gd1322231db" />
+<Document xmlns:p="property" Id="RunDW8wZdllMx03vtWXy0t" LanguageVersion="2021.4.0.133" Version="0.128">
+  <NugetDependency Id="IV566cS2jJgPWVI7NakWa2" Location="VL.CoreLib" Version="2021.4.0-0133-g17eaeec9bd" />
   <Patch Id="R73Z3v6K4bnPgqZh6hwdMs">
     <Canvas Id="UM0ts1tYOyKPeuLxiTWhV4" DefaultCategory="Music.Visualization" CanvasType="FullCategory">
       <Canvas Id="Opl0tJiWQrROkvKqB2rMe7" Name="RGBA" Position="258,187">
@@ -1916,26 +1916,6 @@
               <ControlPoint Id="LAuWUiVwJbIMoHjagxNRHm" Bounds="996,1575" />
               <ControlPoint Id="MWdvrWHLRm8OTRyCO29irT" Bounds="1236,1575" />
             </Canvas>
-            <Patch Id="NCOkMQyV49sNMNf8rPArIr" Name="Create" />
-            <Patch Id="OfM0tlvmiBjNPOQMeOi1Dl" Name="Update" ManuallySortedPins="true">
-              <Pin Id="O6zxYBnnwk7Mq4pTRhYjyq" Name="Position" Kind="InputPin">
-                <p:TypeAnnotation>
-                  <Choice Kind="TypeFlag" Name="Vector2" />
-                </p:TypeAnnotation>
-              </Pin>
-              <Pin Id="QjPGtK2iI9POsV71tFulHz" Name="Size" Kind="InputPin" DefaultValue="2, 0.3">
-                <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
-                  <Choice Kind="TypeFlag" Name="Vector2" />
-                </p:TypeAnnotation>
-              </Pin>
-              <Pin Id="EFGiPJtWMJvPJ2VKvJBVh5" Name="Anchor" Kind="InputPin" Bounds="396,675" />
-              <Pin Id="Syqj2gzEVovMUsH48eGAWC" Name="Start Pitch" Kind="InputPin" Bounds="931,512" />
-              <Pin Id="Omzgi3vIFxMPLB422f3dce" Name="Notes Count" Kind="InputPin" Bounds="520,656" DefaultValue="128">
-                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                  <Choice Kind="TypeFlag" Name="Integer32" />
-                </p:TypeAnnotation>
-              </Pin>
-            </Patch>
             <ProcessDefinition Id="NUbpJ4ShURGOVB9rRkyJ18" HasStateOut="true">
               <Fragment Id="AW0QaNGOnopO1LXN66U8xS" Patch="NCOkMQyV49sNMNf8rPArIr" Enabled="true" />
               <Fragment Id="BxNN7tWUTXNO3ManSlBvSf" Patch="OfM0tlvmiBjNPOQMeOi1Dl" Enabled="true" />
@@ -2050,24 +2030,14 @@
             <Slot Id="Cn2XC5TwiAuMwVB7OaNP5G" Name="White Keys Layer" />
             <Link Id="UEfSWZcPddmNrWFzG3cLtQ" Ids="KQI4R36yJf4O6M4KezcrGJ,CaVnCgpIHT6LKslXWcOwXG" />
             <Link Id="IVaWQA6L3M1PA2l1YhlTY7" Ids="BI9xGqxxpaKNDzgDS3F4fT,DKJwt9ByHhHMiFES0LpLhP" />
-            <Patch Id="FkKjKlfcXSiOXTgTLr2rA1" Name="GetWhiteKeysLayer">
-              <Pin Id="AT5AXD388rBLJsvunTgMlY" Name="White Keys Layer" Kind="OutputPin" />
-            </Patch>
             <Link Id="JXBvBSxBL4EP3qwdhMp24l" Ids="JRGfCl4WA6TQZlxKbQOT6s,K3vcMtwZkt5L7BaLIrjvD2" />
             <Slot Id="AbYHpdXfDjlLpNws6mBh95" Name="Black Keys Layer" />
             <Link Id="LBM7PhOMHz3L1rGOpknqlZ" Ids="K3vcMtwZkt5L7BaLIrjvD2,HObvIjGMrzpLbRhPFfoODs" />
             <Link Id="JfUXznCWYAULpvYZJXR2Ox" Ids="HObvIjGMrzpLbRhPFfoODs,MvoO5cSVYj8LIbYcFthLxM" IsHidden="true" />
-            <Patch Id="L47YWEsPgWnMkm7jIHEuHq" Name="GetBlackKeysLayer">
-              <Pin Id="MvoO5cSVYj8LIbYcFthLxM" Name="Black Keys Layer" Kind="OutputPin" />
-            </Patch>
             <Link Id="NZ9SqqpbFZ0PGs1Qruyu0W" Ids="BZd9T2w1igkPSHdaOsJfc4,UZhborIkxpdORg4tsknYJ0" />
             <Slot Id="ThZrrXSVms3MrWsFxN8XgC" Name="Rectangles" />
             <Link Id="Uq0KJ3UCemGPr3pUls4Zix" Ids="EfuzqX8qHbLPRQXWRhu4PH,FCwUacxTuVGOg3Qdx0f6G9" />
             <Slot Id="UmW5V52ll9XLPCU0Eyqxzd" Name="Is Black Key" />
-            <Patch Id="OPFyvv0Vk2zOJKaGF7F1k8" Name="GetRectangles">
-              <Pin Id="POwCetNlKGdMxmKNFLU1d5" Name="Is Black Key" Kind="OutputPin" />
-              <Pin Id="SiWPocVRZAVMFqw5HKwuoH" Name="Rectangles" Kind="OutputPin" />
-            </Patch>
             <Link Id="RFibTBI4JubN3ac8xG1ff1" Ids="BsVhAZORx9GQHACehAWRRr,OJ5mlYbXwV0MjsbNrf8oR3" />
             <Slot Id="VlJLIcOPzQ7LGt2gDSUFdh" Name="Last Note Pitch" />
             <Link Id="LfFXB1zyyDGPBrx3ECJM9a" Ids="Syqj2gzEVovMUsH48eGAWC,VH1rSI9GTzCMFJiV6GhTfh" IsHidden="true" />
@@ -2075,10 +2045,6 @@
             <Link Id="BN3y9qHhPCjO3JUeg3dbpy" Ids="VH1rSI9GTzCMFJiV6GhTfh,U5XiX9bygjRMSjdIo1SEfg" />
             <Link Id="QuqVgQHmBCEMQJskI7UmDk" Ids="U5XiX9bygjRMSjdIo1SEfg,FKcfUXFSJX3MSjBMy39ZnW" />
             <Link Id="Sd5tAMALFfDNuJH4e8aDw9" Ids="FKcfUXFSJX3MSjBMy39ZnW,N3Wn3zcrIceLvsmYwVVx8i" IsHidden="true" />
-            <Patch Id="Cqyka31AXEBNZzIRucX91B" Name="GetPitchRange">
-              <Pin Id="N5tZkJCUWIaMHW6Opr5guz" Name="Last Note Pitch" Kind="OutputPin" />
-              <Pin Id="N3Wn3zcrIceLvsmYwVVx8i" Name="Start Pitch" Kind="OutputPin" />
-            </Patch>
             <Link Id="OpNULLVwMQNQGu2zaNtqaI" Ids="CfC70fmN4HdLY6LzubN65a,JRGfCl4WA6TQZlxKbQOT6s" />
             <Link Id="KURH0e0IXhtPbz8WU5Irk5" Ids="Rpcf34bywuBPAB0gW24Plv,NDroheXgI6kLohf5ceMnG5" />
             <Link Id="T92TT9zgzbnLSIf2OlUeIU" Ids="Q5mF9Sz7CvNLR98sWml6t1,DmVJvy8w4AhO06BsNFGaV4" />
@@ -2092,9 +2058,6 @@
             <Link Id="Lq056U1SN5KPGjd4YdXJA6" Ids="SSnaYA0iUgMPoEFJCpfkQ8,CCuPbK1wjtGMsUp6sCvy5i" />
             <Link Id="MmSj52fpjEjNIMMgdh1GZi" Ids="OQ7YpeGN5HyLMhyFiDO0Ae,Uf76omi7cV9OF8P4xDXt1M" />
             <Slot Id="NjHHsoUjGOgP872Z3vk70y" Name="Foreground Layer" />
-            <Patch Id="Jhj1LHZSGHeNh8nFAQDCwj" Name="GetForegroundLayer">
-              <Pin Id="VnycoYcogiFP9NbsEJJLcL" Name="Foreground Layer" Kind="OutputPin" />
-            </Patch>
             <Link Id="SxGptvVu4G1Nfd0CcQWLC3" Ids="UTlG1dXsjthLl9GrBwNgQA,HbZfp0NAkjsL2VQZF4dEmB" />
             <Link Id="LCk91hcwHRsLl5Sc4Dd7wH" Ids="Hpiqxw4GxckP9BgkP6Y57a,M1ztFAXeknDOI0uGkXmKFt" IsFeedback="true" />
             <Link Id="BTox330PL9sOT1wNIajv0h" Ids="HoMssT1WoF0LZyrt5shDNx,M1ztFAXeknDOI0uGkXmKFt" />
@@ -2114,10 +2077,6 @@
             <Link Id="PJ1RJcLLBXfMfhCwvSQL3o" Ids="LAuWUiVwJbIMoHjagxNRHm,OBPcxKQtQWbM50JhAQ47aL" IsHidden="true" />
             <Link Id="NY7CsZ1GMhTPyprE4Vn7zv" Ids="JPJYDOLljmHPJcjNlnddIV,MWdvrWHLRm8OTRyCO29irT" />
             <Link Id="NWmycbSrryaL9f0CliwiFb" Ids="MWdvrWHLRm8OTRyCO29irT,SfQtF14dm1oLSZRHmcYiaF" IsHidden="true" />
-            <Patch Id="Aa9oxaoPVgyPWyb2bX2NqO" Name="GetWBRectangles">
-              <Pin Id="OBPcxKQtQWbM50JhAQ47aL" Name="White Keys Rectangle" Kind="OutputPin" />
-              <Pin Id="SfQtF14dm1oLSZRHmcYiaF" Name="Black Keys Rectangle" Kind="OutputPin" />
-            </Patch>
             <Link Id="NoVDsiiIA2WPAMnHVksh7J" Ids="AEQxcZFvLDsPHpb3JiRSt6,DPpR5VyAD5pO2WtKujcBOT" />
             <Link Id="TFHemCUuP9uOa3VxnWJx89" Ids="CCw60tJFo9aO2CryXBWTa6,LwJd7A06qQIOch3lmBnUQi" />
             <Link Id="Bku6gsuMIRMNKJ3H1aCfZn" Ids="VVhBGGr012TQZHBITIfSWs,QWVtoJV4ZpINKqCYUWEmGt" />
@@ -2129,6 +2088,47 @@
             <Link Id="HmuM7f656LAMQ0IzBoIFdq" Ids="FS6Stw2fGrjM0V47lN9F54,Lpv5utDU4nDQamEBZ1woWb" />
             <Link Id="S4L0byz7432P1vYJ0XjjFf" Ids="S4aRubQvLUcOl23lWXEl8q,KNgIcna6u0ENpjSynv06yg" />
             <Link Id="VnDnJKgAWF7NYad0rjQjLO" Ids="BI1LSpVFIRANrQ8IyVfVQn,QhjvtZcef3RNBBeHK2KJ47" />
+            <Patch Id="NCOkMQyV49sNMNf8rPArIr" Name="Create" />
+            <Patch Id="OfM0tlvmiBjNPOQMeOi1Dl" Name="Update" ManuallySortedPins="true">
+              <Pin Id="O6zxYBnnwk7Mq4pTRhYjyq" Name="Position" Kind="InputPin">
+                <p:TypeAnnotation>
+                  <Choice Kind="TypeFlag" Name="Vector2" />
+                </p:TypeAnnotation>
+              </Pin>
+              <Pin Id="QjPGtK2iI9POsV71tFulHz" Name="Size" Kind="InputPin" DefaultValue="2, 0.3">
+                <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="TypeFlag" Name="Vector2" />
+                </p:TypeAnnotation>
+              </Pin>
+              <Pin Id="EFGiPJtWMJvPJ2VKvJBVh5" Name="Anchor" Kind="InputPin" Bounds="396,675" />
+              <Pin Id="Syqj2gzEVovMUsH48eGAWC" Name="Start Pitch" Kind="InputPin" Bounds="931,512" />
+              <Pin Id="Omzgi3vIFxMPLB422f3dce" Name="Notes Count" Kind="InputPin" Bounds="520,656" DefaultValue="128">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="TypeFlag" Name="Integer32" />
+                </p:TypeAnnotation>
+              </Pin>
+            </Patch>
+            <Patch Id="FkKjKlfcXSiOXTgTLr2rA1" Name="GetWhiteKeysLayer">
+              <Pin Id="AT5AXD388rBLJsvunTgMlY" Name="White Keys Layer" Kind="OutputPin" />
+            </Patch>
+            <Patch Id="L47YWEsPgWnMkm7jIHEuHq" Name="GetBlackKeysLayer">
+              <Pin Id="MvoO5cSVYj8LIbYcFthLxM" Name="Black Keys Layer" Kind="OutputPin" />
+            </Patch>
+            <Patch Id="OPFyvv0Vk2zOJKaGF7F1k8" Name="GetRectangles">
+              <Pin Id="SiWPocVRZAVMFqw5HKwuoH" Name="Rectangles" Kind="OutputPin" />
+              <Pin Id="POwCetNlKGdMxmKNFLU1d5" Name="Is Black Key" Kind="OutputPin" />
+            </Patch>
+            <Patch Id="Cqyka31AXEBNZzIRucX91B" Name="GetPitchRange">
+              <Pin Id="N3Wn3zcrIceLvsmYwVVx8i" Name="Start Pitch" Kind="OutputPin" />
+              <Pin Id="N5tZkJCUWIaMHW6Opr5guz" Name="Last Note Pitch" Kind="OutputPin" />
+            </Patch>
+            <Patch Id="Jhj1LHZSGHeNh8nFAQDCwj" Name="GetForegroundLayer">
+              <Pin Id="VnycoYcogiFP9NbsEJJLcL" Name="Foreground Layer" Kind="OutputPin" />
+            </Patch>
+            <Patch Id="Aa9oxaoPVgyPWyb2bX2NqO" Name="GetWBRectangles">
+              <Pin Id="OBPcxKQtQWbM50JhAQ47aL" Name="White Keys Rectangle" Kind="OutputPin" />
+              <Pin Id="SfQtF14dm1oLSZRHmcYiaF" Name="Black Keys Rectangle" Kind="OutputPin" />
+            </Patch>
           </Patch>
         </Node>
       </Canvas>
@@ -2154,7 +2154,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="AvqyMWYxdv8NwXXyybaQHU" Location="VL.Stride" Version="2021.4.0-0110-gd1322231db" />
+  <NugetDependency Id="AvqyMWYxdv8NwXXyybaQHU" Location="VL.Stride" Version="2021.4.0-0133-g17eaeec9bd" />
   <DocumentDependency Id="NowtAcvKzDhM3p9eHveysx" Location="./VL.Music.Core.vl" />
-  <NugetDependency Id="NtzJfjcIieYOKTD9Ce62U7" Location="VL.Skia" Version="2021.4.0-0110-gd1322231db" />
+  <NugetDependency Id="NtzJfjcIieYOKTD9Ce62U7" Location="VL.Skia" Version="2021.4.0-0133-g17eaeec9bd" />
 </Document>

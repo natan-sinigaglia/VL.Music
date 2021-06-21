@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="HTK7ZiIC97hQcEu1ZsweU7" LanguageVersion="2021.4.0.110" Version="0.128">
-  <NugetDependency Id="OtNFfaw1RC2NkDOg6Pn59f" Location="VL.CoreLib" Version="2021.4.0-0110-gd1322231db" />
+<Document xmlns:p="property" Id="HTK7ZiIC97hQcEu1ZsweU7" LanguageVersion="2021.4.0.133" Version="0.128">
+  <NugetDependency Id="OtNFfaw1RC2NkDOg6Pn59f" Location="VL.CoreLib" Version="2021.4.0-0133-g17eaeec9bd" />
   <Patch Id="RsjJn6jHigJQXkIx61cWGL">
     <Canvas Id="RkjAlkRkTiWPVIyRiVVEaL" DefaultCategory="Music" CanvasType="FullCategory">
       <Canvas Id="Uu3DKpMxP5tN3K8WZYURJv" Name="Math" Position="332,210">
@@ -377,11 +377,6 @@
             <Choice Kind="OperationDefinition" Name="Operation" />
           </p:NodeReference>
           <Patch Id="N1FpNwAqbSVPsz3gWFCBxV" IsGeneric="true">
-            <Pin Id="HGhG98pdCklL7BGh7J3TE1" Name="Sampling Position" Kind="InputPin">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Float32" />
-              </p:TypeAnnotation>
-            </Pin>
             <ControlPoint Id="S5EUHC7TS3UOaFfLvIml0W" Bounds="1992,199" />
             <Link Id="GQE7RNZVgoONpaK37zF2eJ" Ids="HGhG98pdCklL7BGh7J3TE1,S5EUHC7TS3UOaFfLvIml0W" IsHidden="true" />
             <Node Bounds="1990,218,35,19" Id="HDIAmZGSp3lLNnyf5z2Ouw">
@@ -394,7 +389,6 @@
               <Pin Id="J5fMTMSem6zMexYtKsKIwW" Name="Fractional Part" Kind="OutputPin" />
             </Node>
             <Link Id="UXBrLR9oJWcMThdVmQjY6G" Ids="S5EUHC7TS3UOaFfLvIml0W,QTcCEH7AHJzPuMWSns0ahW" />
-            <Pin Id="NzGTlkFbsP9MX7vIv7zcli" Name="Collection" Kind="InputPin" />
             <ControlPoint Id="P6dOJh5UePfOYWDE7wizY6" Bounds="1870,199" />
             <Link Id="EykEdhrZkwQOBBoSSW1yUB" Ids="NzGTlkFbsP9MX7vIv7zcli,P6dOJh5UePfOYWDE7wizY6" IsHidden="true" />
             <Node Bounds="1868,293,52,26" Id="UYDhMhkYwwHO3IGk3G6Ny0">
@@ -448,8 +442,14 @@
             <Link Id="ORSBONYwNG4L4kPgGJ08t3" Ids="J5fMTMSem6zMexYtKsKIwW,G0KU7eYXy4lNzkLG1Rrlki" />
             <ControlPoint Id="ByhN9iS9XybNaAvntPgqGu" Bounds="1870,386" />
             <Link Id="Rcy6RAz8XBgPxf1HbnoWOy" Ids="STNarqhGXGfMFB8hV597g9,ByhN9iS9XybNaAvntPgqGu" />
-            <Pin Id="V0XTVAJ43HxNzoKka6LUa5" Name="Output" Kind="OutputPin" Bounds="455,512" />
             <Link Id="EZ7WRjPoqIZLJFKbdkmacB" Ids="ByhN9iS9XybNaAvntPgqGu,V0XTVAJ43HxNzoKka6LUa5" IsHidden="true" />
+            <Pin Id="NzGTlkFbsP9MX7vIv7zcli" Name="Collection" Kind="InputPin" />
+            <Pin Id="HGhG98pdCklL7BGh7J3TE1" Name="Sampling Position" Kind="InputPin">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="Float32" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="V0XTVAJ43HxNzoKka6LUa5" Name="Output" Kind="OutputPin" Bounds="455,512" />
           </Patch>
         </Node>
         <!--
@@ -1755,31 +1755,6 @@
                   <Pin Id="JFa7vRgmLI7NJGGSjqNVmF" Name="Output" Kind="OutputPin" />
                 </Node>
               </Canvas>
-              <Patch Id="CP9slGCaO64QDxlxjrbIu7" Name="Create" />
-              <Patch Id="TJn4rwO2acsMAJ0vn6MRnm" Name="Update">
-                <Pin Id="DlIXAbxlxKWLvqlLv4JCFk" Name="Amplitude" Kind="InputPin" Bounds="373,336">
-                  <p:TypeAnnotation>
-                    <Choice Kind="TypeFlag" Name="Float32" />
-                  </p:TypeAnnotation>
-                </Pin>
-                <Pin Id="DwH9eC8gu6GPq7eVnPHgsE" Name="Reset" Kind="InputPin" Bounds="395,367" />
-                <Pin Id="N2eOspCzLoDOX4b4tuJSJR" Name="Temporal Adaptation Amount" Kind="InputPin" Bounds="447,405" DefaultValue="0.05" Visibility="Optional">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                    <Choice Kind="TypeFlag" Name="Float32" />
-                  </p:TypeAnnotation>
-                </Pin>
-                <Pin Id="APZXACEmM87PJtL1BJUX96" Name="Temporal Adaptation" Kind="InputPin" Bounds="433,360" />
-                <Pin Id="Q1OoygtGAdlLJFn6loNAbF" Name="Enable" Kind="InputPin" Bounds="545,462" />
-                <Pin Id="NXwcNGaDqjdPANHTiBeDwE" Name="Responsiveness" Kind="InputPin" Bounds="267,200" />
-                <Pin Id="Ij38yoJ6efGMDC6EbwId6S" Name="Gamma" Kind="InputPin" Bounds="325,399" DefaultValue="1" Visibility="Optional">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                    <Choice Kind="TypeFlag" Name="Float32" />
-                  </p:TypeAnnotation>
-                </Pin>
-                <Pin Id="NPfKIs8ut0xMGnQratAsPG" Name="Output" Kind="OutputPin" Bounds="354,576" />
-                <Pin Id="NsNcZj6TY1oL7OCUYJrao9" Name="Min Value" Kind="OutputPin" Bounds="393,539" />
-                <Pin Id="Q51t5xvGkR5MNxwHSoXUIA" Name="Max Value" Kind="OutputPin" Bounds="500,534" />
-              </Patch>
               <ProcessDefinition Id="NwyZSaCKTrDLxgJqwFmeus">
                 <Fragment Id="ImhKI4R1rhvNB3dG13lQ6O" Patch="CP9slGCaO64QDxlxjrbIu7" Enabled="true" />
                 <Fragment Id="SpGZSQ0aUz1M52614vqT4R" Patch="TJn4rwO2acsMAJ0vn6MRnm" Enabled="true" />
@@ -1810,6 +1785,31 @@
               <Link Id="IVWekcPgk2vLB7QHgayAX8" Ids="Ij38yoJ6efGMDC6EbwId6S,FlzyfGtTEECPPrR1PWaPLh" IsHidden="true" />
               <Link Id="AfqvWUBTJl5L6O5cON7AZu" Ids="Ak6STzCT5vcMdUPo7rLIkG,AJaJ2HpF5UJNjQllhA9mLN" />
               <Link Id="RXA3HOgmIsqMWtBx4Q3yUp" Ids="JFa7vRgmLI7NJGGSjqNVmF,RRq27ppa2hSPhSUa2sjXIB" />
+              <Patch Id="CP9slGCaO64QDxlxjrbIu7" Name="Create" />
+              <Patch Id="TJn4rwO2acsMAJ0vn6MRnm" Name="Update">
+                <Pin Id="DlIXAbxlxKWLvqlLv4JCFk" Name="Amplitude" Kind="InputPin" Bounds="373,336">
+                  <p:TypeAnnotation>
+                    <Choice Kind="TypeFlag" Name="Float32" />
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="Ij38yoJ6efGMDC6EbwId6S" Name="Gamma" Kind="InputPin" Bounds="325,399" DefaultValue="1" Visibility="Optional">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="TypeFlag" Name="Float32" />
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="NXwcNGaDqjdPANHTiBeDwE" Name="Responsiveness" Kind="InputPin" Bounds="267,200" />
+                <Pin Id="DwH9eC8gu6GPq7eVnPHgsE" Name="Reset" Kind="InputPin" Bounds="395,367" />
+                <Pin Id="APZXACEmM87PJtL1BJUX96" Name="Temporal Adaptation" Kind="InputPin" Bounds="433,360" />
+                <Pin Id="N2eOspCzLoDOX4b4tuJSJR" Name="Temporal Adaptation Amount" Kind="InputPin" Bounds="447,405" DefaultValue="0.05" Visibility="Optional">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="TypeFlag" Name="Float32" />
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="Q1OoygtGAdlLJFn6loNAbF" Name="Enable" Kind="InputPin" Bounds="545,462" />
+                <Pin Id="NPfKIs8ut0xMGnQratAsPG" Name="Output" Kind="OutputPin" Bounds="354,576" />
+                <Pin Id="NsNcZj6TY1oL7OCUYJrao9" Name="Min Value" Kind="OutputPin" Bounds="393,539" />
+                <Pin Id="Q51t5xvGkR5MNxwHSoXUIA" Name="Max Value" Kind="OutputPin" Bounds="500,534" />
+              </Patch>
             </Patch>
           </Node>
           <!--
@@ -3013,40 +3013,6 @@
                 </Node>
                 <ControlPoint Id="VMVWkoEYW7eMmeEfOZEfCj" Bounds="376,686" />
               </Canvas>
-              <Patch Id="ClnvJCxEK4aN60QjENLGN4" Name="Create" />
-              <Patch Id="SgscSiMeUkxM5YCggc4nr6" Name="Update">
-                <Pin Id="HkUpkkTdz6iN2RDoULb5rk" Name="Pitch" Kind="InputPin" DefaultValue="60">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                    <Choice Kind="TypeFlag" Name="Float32" />
-                  </p:TypeAnnotation>
-                </Pin>
-                <Pin Id="PEbVA3cxftTLbr9HzFAj1x" Name="Amplitude" Kind="InputPin" DefaultValue="1">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                    <Choice Kind="TypeFlag" Name="Float32" />
-                  </p:TypeAnnotation>
-                </Pin>
-                <Pin Id="Bgi2JvEIcjEM6yr5doh2ZH" Name="Amplitude Min Threshold" Kind="InputPin" Bounds="480,94" DefaultValue="0.1">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                    <Choice Kind="TypeFlag" Name="Float32" />
-                  </p:TypeAnnotation>
-                </Pin>
-                <Pin Id="SfS2no0boWqMy9gnG8IUzy" Name="Frame Buffer Count" Kind="InputPin" Bounds="266,164" DefaultValue="10" Visibility="Optional">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                    <Choice Kind="TypeFlag" Name="Integer32" />
-                  </p:TypeAnnotation>
-                </Pin>
-                <Pin Id="GDJBoGhuSbVPlCT5Ly6J8R" Name="Pitch Difference Threshold" Kind="InputPin" Bounds="325,367" DefaultValue="10" Visibility="Optional">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                    <Choice Kind="TypeFlag" Name="Float32" />
-                  </p:TypeAnnotation>
-                </Pin>
-                <Pin Id="Li78wZjhwCAOXt2Xeoe8uh" Name="Absolute Pitch" Kind="OutputPin" Bounds="174,536" />
-                <Pin Id="ShGIn9rw6ATNBhSyOmoGXb" Name="Note Index" Kind="OutputPin" Bounds="384,609" Visibility="Optional" />
-                <Pin Id="NVMI9qUTVmQMUNeVqBoupb" Name="Pitch Bend" Kind="OutputPin" Bounds="479,639" Visibility="Optional" />
-                <Pin Id="J0H0rH0a910M88xb09wRqS" Name="Note Active" Kind="OutputPin" Bounds="280,438" />
-                <Pin Id="Ud3tor00OBMQBFwZzapM8i" Name="Amplitude &gt; Threshold" Kind="OutputPin" Bounds="501,123" Visibility="Optional" />
-                <Pin Id="CSLrfPVHgqoM7hk7RWywxB" Name="New Note Bang" Kind="OutputPin" Bounds="467,679" />
-              </Patch>
               <ProcessDefinition Id="RlRPN3kgnKcPypBLRxZ2AF">
                 <Fragment Id="LHVvdBYx84qNwhWRdZjQOM" Patch="ClnvJCxEK4aN60QjENLGN4" Enabled="true" />
                 <Fragment Id="JM9RGMBJfnYPU3q3jhu2WC" Patch="SgscSiMeUkxM5YCggc4nr6" Enabled="true" />
@@ -3095,6 +3061,40 @@
               <Link Id="UGRPMg3EQZkPbGRqU3cpaf" Ids="KYXsBAoywBhPBMXTZicoGG,EF8B3RiSoMLPn7j9AYDfQK" />
               <Link Id="Oe73kYn9vKSOnBWW7vmyg9" Ids="TsDQuEuMpdaNI88qK0oD2a,VMVWkoEYW7eMmeEfOZEfCj" />
               <Link Id="AQ1I4d5xulyLnjoiV9jyIw" Ids="VMVWkoEYW7eMmeEfOZEfCj,CSLrfPVHgqoM7hk7RWywxB" IsHidden="true" />
+              <Patch Id="ClnvJCxEK4aN60QjENLGN4" Name="Create" />
+              <Patch Id="SgscSiMeUkxM5YCggc4nr6" Name="Update">
+                <Pin Id="HkUpkkTdz6iN2RDoULb5rk" Name="Pitch" Kind="InputPin" DefaultValue="60">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="TypeFlag" Name="Float32" />
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="SfS2no0boWqMy9gnG8IUzy" Name="Frame Buffer Count" Kind="InputPin" Bounds="266,164" DefaultValue="10" Visibility="Optional">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="TypeFlag" Name="Integer32" />
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="GDJBoGhuSbVPlCT5Ly6J8R" Name="Pitch Difference Threshold" Kind="InputPin" Bounds="325,367" DefaultValue="10" Visibility="Optional">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="TypeFlag" Name="Float32" />
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="PEbVA3cxftTLbr9HzFAj1x" Name="Amplitude" Kind="InputPin" DefaultValue="1">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="TypeFlag" Name="Float32" />
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="Bgi2JvEIcjEM6yr5doh2ZH" Name="Amplitude Min Threshold" Kind="InputPin" Bounds="480,94" DefaultValue="0.1">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="TypeFlag" Name="Float32" />
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="Li78wZjhwCAOXt2Xeoe8uh" Name="Absolute Pitch" Kind="OutputPin" Bounds="174,536" />
+                <Pin Id="ShGIn9rw6ATNBhSyOmoGXb" Name="Note Index" Kind="OutputPin" Bounds="384,609" Visibility="Optional" />
+                <Pin Id="J0H0rH0a910M88xb09wRqS" Name="Note Active" Kind="OutputPin" Bounds="280,438" />
+                <Pin Id="NVMI9qUTVmQMUNeVqBoupb" Name="Pitch Bend" Kind="OutputPin" Bounds="479,639" Visibility="Optional" />
+                <Pin Id="CSLrfPVHgqoM7hk7RWywxB" Name="New Note Bang" Kind="OutputPin" Bounds="467,679" />
+                <Pin Id="Ud3tor00OBMQBFwZzapM8i" Name="Amplitude &gt; Threshold" Kind="OutputPin" Bounds="501,123" Visibility="Optional" />
+              </Patch>
             </Patch>
           </Node>
           <!--
@@ -3155,26 +3155,6 @@
                 <ControlPoint Id="EuDqX1GNdkGLH2vuDIhjpK" Bounds="243,144" />
                 <ControlPoint Id="AQFp0xi7SzEQdRGPx21a7r" Bounds="142,81" />
               </Canvas>
-              <Patch Id="EQIzrcRKXetOqQYynfuG3M" Name="Create" />
-              <Patch Id="RVYvWz8RxjwMWgOIsDTMLN" Name="Update">
-                <Pin Id="T2nkCb4NWf4OLhoAthGlFV" Name="Amplitude" Kind="InputPin" Bounds="373,336">
-                  <p:TypeAnnotation>
-                    <Choice Kind="TypeFlag" Name="Float32" />
-                  </p:TypeAnnotation>
-                </Pin>
-                <Pin Id="LhKfGxMxojbN2kOmSnRAc0" Name="Reset" Kind="InputPin" Bounds="144,152" />
-                <Pin Id="LNHMUZoy7zyQQ2xxRTntZy" Name="Temporal Adaptation" Kind="InputPin" Bounds="209,132" />
-                <Pin Id="UWGomSoGwxXPLB8wcVOvxe" Name="Enable" Kind="InputPin" Bounds="231,161" />
-                <Pin Id="KMEGF2rGQdHQbJTQ7UmVoP" Name="Temporal Adaptation Amount" Kind="InputPin" Bounds="223,143" DefaultValue="0.05" Visibility="Optional">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                    <Choice Kind="TypeFlag" Name="Float32" />
-                  </p:TypeAnnotation>
-                </Pin>
-                <Pin Id="OaW9VGzRA8eM0qWOOHXLsT" Name="Buffer Count" Kind="InputPin" Bounds="143,81" Visibility="Optional" />
-                <Pin Id="VAn9J3awBRrOenXLhUnbGr" Name="Output" Kind="OutputPin" Bounds="354,576" />
-                <Pin Id="Oz0nJPsUAV4N1QjMQNkyjG" Name="Min Value" Kind="OutputPin" Bounds="393,539" />
-                <Pin Id="JTukIjITx1eOtENY2oMqjd" Name="Max Value" Kind="OutputPin" Bounds="500,534" />
-              </Patch>
               <ProcessDefinition Id="HoszOubjOmDOydc3pwpivB">
                 <Fragment Id="Bxqb62aOrZWNxy9CgOiJ0Z" Patch="EQIzrcRKXetOqQYynfuG3M" Enabled="true" />
                 <Fragment Id="ODCw2Z9esBWQJR7lqguKCt" Patch="RVYvWz8RxjwMWgOIsDTMLN" Enabled="true" />
@@ -3201,6 +3181,26 @@
               <Link Id="GhEYiJOHWYfPCIY1nUSD6X" Ids="KMEGF2rGQdHQbJTQ7UmVoP,EuDqX1GNdkGLH2vuDIhjpK" IsHidden="true" />
               <Link Id="OCEhZM96JozNe325lyddRJ" Ids="AQFp0xi7SzEQdRGPx21a7r,Ffn7DmgHwyjODF3DWLJYqz" />
               <Link Id="RnokiAVRerkM6fouMsoMDB" Ids="OaW9VGzRA8eM0qWOOHXLsT,AQFp0xi7SzEQdRGPx21a7r" IsHidden="true" />
+              <Patch Id="EQIzrcRKXetOqQYynfuG3M" Name="Create" />
+              <Patch Id="RVYvWz8RxjwMWgOIsDTMLN" Name="Update">
+                <Pin Id="T2nkCb4NWf4OLhoAthGlFV" Name="Amplitude" Kind="InputPin" Bounds="373,336">
+                  <p:TypeAnnotation>
+                    <Choice Kind="TypeFlag" Name="Float32" />
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="OaW9VGzRA8eM0qWOOHXLsT" Name="Buffer Count" Kind="InputPin" Bounds="143,81" Visibility="Optional" />
+                <Pin Id="LhKfGxMxojbN2kOmSnRAc0" Name="Reset" Kind="InputPin" Bounds="144,152" />
+                <Pin Id="LNHMUZoy7zyQQ2xxRTntZy" Name="Temporal Adaptation" Kind="InputPin" Bounds="209,132" />
+                <Pin Id="KMEGF2rGQdHQbJTQ7UmVoP" Name="Temporal Adaptation Amount" Kind="InputPin" Bounds="223,143" DefaultValue="0.05" Visibility="Optional">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="TypeFlag" Name="Float32" />
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="UWGomSoGwxXPLB8wcVOvxe" Name="Enable" Kind="InputPin" Bounds="231,161" />
+                <Pin Id="VAn9J3awBRrOenXLhUnbGr" Name="Output" Kind="OutputPin" Bounds="354,576" />
+                <Pin Id="Oz0nJPsUAV4N1QjMQNkyjG" Name="Min Value" Kind="OutputPin" Bounds="393,539" />
+                <Pin Id="JTukIjITx1eOtENY2oMqjd" Name="Max Value" Kind="OutputPin" Bounds="500,534" />
+              </Patch>
             </Patch>
           </Node>
           <!--
@@ -4294,34 +4294,6 @@
             <Link Id="Tgf61rVvygCNsqDErefKdR" Ids="AAn1zBMD3bWOXbzSqVZFEt,HjZvW8BIP80PcvsJVXTUMM" />
             <Link Id="JxFreEEVk8WM57vko21rw0" Ids="OnJz3DOKyttOd1z48YqQuw,OK4d34SzTuQObj6e7bLuJW" />
             <Link Id="VXylBDoV82NO1v61Eo4AXP" Ids="MLJBuevT0owN1WSJzLaBhj,OyRbdfgfvfbNUpSKGMCV6Y" IsFeedback="true" />
-            <Patch Id="HZ23FWdRiWcNqPrwNlJqNk" Name="Create" />
-            <Patch Id="P5j20fcQrqRPWFQtwyHhQJ" Name="Update">
-              <Pin Id="R0vVTyzcCcpNmf4p0IYfVv" Name="Reset" Kind="InputPin" Bounds="754,531" />
-              <Pin Id="Noji4YCzWvKLiw8QFyb1Lo" Name="Enable" Kind="InputPin" Bounds="787,404" DefaultValue="False">
-                <p:TypeAnnotation>
-                  <Choice Kind="TypeFlag" Name="Boolean" />
-                </p:TypeAnnotation>
-              </Pin>
-              <Pin Id="MW3PxqjKw6dNeSmskXa9gN" Name="Result" Kind="OutputPin" Bounds="445,706" />
-              <Pin Id="VeetII9qloLO0QNhjHxGHH" Name="Changed" Kind="OutputPin" Bounds="501,700" />
-              <Pin Id="UAzdAy5wWn0PepcGURXdaD" Name="StepTime" Kind="OutputPin" Bounds="287,720" />
-              <Pin Id="B4BRccbBATALB9pcwq71Dt" Name="Is Open" Kind="OutputPin" Bounds="157,351" />
-              <Pin Id="Ipo4m1eQFICNGXaTgXEnDN" Name="BPM" Kind="InputPin" Bounds="664,-104" DefaultValue="120">
-                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                  <Choice Kind="TypeFlag" Name="Float64" />
-                </p:TypeAnnotation>
-              </Pin>
-              <Pin Id="CEGTQYsdHcQOsVrNjzmI5V" Name="BPM" Kind="OutputPin" Bounds="539,933" />
-              <Pin Id="IsATqoErBR6P94EEzm957J" Name="ExtClockEnable" Kind="OutputPin" Bounds="614,926" />
-              <Pin Id="UIJIvSBKAEQQG6Afx8STzV" Name="PPQN" Kind="InputPin" Bounds="292,-65" DefaultValue="96">
-                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                  <Choice Kind="TypeFlag" Name="Integer32" />
-                </p:TypeAnnotation>
-              </Pin>
-              <Pin Id="Gml8jcUyd9dPFqkw9jXwGZ" Name="DeviceInNames" Kind="InputPin" Bounds="-353,-131" />
-              <Pin Id="RoW2sC1Qu1qMRtUmZWofIn" Name="DeviceClockName" Kind="InputPin" Bounds="-335,-61" />
-              <Pin Id="KjIBqNecNfqOFDc9jftsbp" Name="ExtClockEnable" Kind="InputPin" Bounds="-425,-76" />
-            </Patch>
             <Link Id="DmahJ5eEMsKMDhXSjYGVod" Ids="RdQaTcwvQA5LuwyTyjpmzF,JBPm2MjeyRoMFzpda8jBFX" />
             <Link Id="BgMw4P8kISIOZFxvP0eHWc" Ids="R2T7HJHO1FlLlyu8dMt41z,AL1XagcR5ExPwupf9oQjgV" IsHidden="true" />
             <Link Id="LKEyI2By8TBORiHWYfS66j" Ids="BgigR5LrSKVQDR1R0JybLc,U9RW8xohmWIN0xYSptC3MH" IsHidden="true" />
@@ -4410,6 +4382,34 @@
             <Link Id="Fir6yDAogL9PiENmj1PPMT" Ids="KjIBqNecNfqOFDc9jftsbp,IjUn5W06lueOqffAJJUETU" IsHidden="true" />
             <Link Id="KC27PSUj0FVMjqIcof1vwp" Ids="IjUn5W06lueOqffAJJUETU,IwYC8zrVm15Pzoe54pWSbS" />
             <Link Id="L5JVRWjAgv1Om2QStBnohN" Ids="IjUn5W06lueOqffAJJUETU,NHJWME4oYp0P33Mr41Fkw8" />
+            <Patch Id="HZ23FWdRiWcNqPrwNlJqNk" Name="Create" />
+            <Patch Id="P5j20fcQrqRPWFQtwyHhQJ" Name="Update">
+              <Pin Id="KjIBqNecNfqOFDc9jftsbp" Name="ExtClockEnable" Kind="InputPin" Bounds="-425,-76" />
+              <Pin Id="Gml8jcUyd9dPFqkw9jXwGZ" Name="DeviceInNames" Kind="InputPin" Bounds="-353,-131" />
+              <Pin Id="RoW2sC1Qu1qMRtUmZWofIn" Name="DeviceClockName" Kind="InputPin" Bounds="-335,-61" />
+              <Pin Id="UIJIvSBKAEQQG6Afx8STzV" Name="PPQN" Kind="InputPin" Bounds="292,-65" DefaultValue="96">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="TypeFlag" Name="Integer32" />
+                </p:TypeAnnotation>
+              </Pin>
+              <Pin Id="Ipo4m1eQFICNGXaTgXEnDN" Name="BPM" Kind="InputPin" Bounds="664,-104" DefaultValue="120">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="TypeFlag" Name="Float64" />
+                </p:TypeAnnotation>
+              </Pin>
+              <Pin Id="R0vVTyzcCcpNmf4p0IYfVv" Name="Reset" Kind="InputPin" Bounds="754,531" />
+              <Pin Id="Noji4YCzWvKLiw8QFyb1Lo" Name="Enable" Kind="InputPin" Bounds="787,404" DefaultValue="False">
+                <p:TypeAnnotation>
+                  <Choice Kind="TypeFlag" Name="Boolean" />
+                </p:TypeAnnotation>
+              </Pin>
+              <Pin Id="MW3PxqjKw6dNeSmskXa9gN" Name="Result" Kind="OutputPin" Bounds="445,706" />
+              <Pin Id="VeetII9qloLO0QNhjHxGHH" Name="Changed" Kind="OutputPin" Bounds="501,700" />
+              <Pin Id="UAzdAy5wWn0PepcGURXdaD" Name="StepTime" Kind="OutputPin" Bounds="287,720" />
+              <Pin Id="B4BRccbBATALB9pcwq71Dt" Name="Is Open" Kind="OutputPin" Bounds="157,351" />
+              <Pin Id="CEGTQYsdHcQOsVrNjzmI5V" Name="BPM" Kind="OutputPin" Bounds="539,933" />
+              <Pin Id="IsATqoErBR6P94EEzm957J" Name="ExtClockEnable" Kind="OutputPin" Bounds="614,926" />
+            </Patch>
           </Patch>
         </Node>
         <!--
@@ -7050,7 +7050,7 @@
                       <Choice Kind="OperationCallFlag" Name="EvaluateSettings" />
                     </p:NodeReference>
                     <Pin Id="UX1Egsghtt2OEEzqiczFjr" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="L96AgkTo6MJMIth0K5kK7K" Name="Output" Kind="StateOutputPin" />
+                    <Pin Id="AbLdGzkJJW6OK2ziqhNTZM" Name="Output" Kind="OutputPin" />
                   </Node>
                 </Patch>
               </Node>
@@ -7081,7 +7081,7 @@
                       <Choice Kind="OperationCallFlag" Name="EvaluateSettings" />
                     </p:NodeReference>
                     <Pin Id="QfOcgKbZKvaMDP0M8yOOJQ" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="JRR9WqJCwBON9mCwU68QF5" Name="Output" Kind="StateOutputPin" />
+                    <Pin Id="NGb0b90DMLtPDUW23G9nSA" Name="Output" Kind="OutputPin" />
                   </Node>
                 </Patch>
               </Node>
@@ -7113,7 +7113,7 @@
                       <Choice Kind="OperationCallFlag" Name="EvaluateSettings" />
                     </p:NodeReference>
                     <Pin Id="TrJuy2yfVxqNYxKxUOx0Cy" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="Prr5qWo5tnqOeJS82RmLra" Name="Output" Kind="StateOutputPin" />
+                    <Pin Id="B6TX7gFHS4cO2av88TezM1" Name="Output" Kind="OutputPin" />
                   </Node>
                 </Patch>
               </Node>
@@ -7144,7 +7144,7 @@
                       <Choice Kind="OperationCallFlag" Name="EvaluateSettings" />
                     </p:NodeReference>
                     <Pin Id="Sm3LD2pE6vIOR1pxdmNpxG" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="KjYXytaAP15LKfePxgPZ8z" Name="Output" Kind="StateOutputPin" />
+                    <Pin Id="FkQD0bm3NRnMmNeLmxHJUG" Name="Output" Kind="OutputPin" />
                   </Node>
                 </Patch>
               </Node>
@@ -7660,12 +7660,6 @@
               </Node>
               <ControlPoint Id="OmmIXOjyXuuPR1H9oCrSMa" Bounds="105,78" />
             </Canvas>
-            <Patch Id="KKchQ1zO104MCzHAJApTG9" Name="Create" />
-            <Patch Id="H2r9eaqrzrOMlZ6exdVRwl" Name="Update">
-              <Pin Id="DMVKMhD25tbN9vznJuzE9D" Name="Parent Clock" Kind="InputPin" Bounds="242,118" />
-              <Pin Id="AQpppAqBmmePuFI1Mw6Bdb" Name="Local Clock State" Kind="InputPin" Bounds="449,156" />
-              <Pin Id="GPwjsJlDmMwOXJpm0bl7t5" Name="Enabled" Kind="InputPin" Bounds="102,78" />
-            </Patch>
             <ProcessDefinition Id="TybjT5LhMunME1tQBZbTDM">
               <Fragment Id="Rx7TU69h9unNRevuD0AivK" Patch="KKchQ1zO104MCzHAJApTG9" Enabled="true" />
               <Fragment Id="GN1nhu8hGORNdfsO9qiCHQ" Patch="H2r9eaqrzrOMlZ6exdVRwl" Enabled="true" />
@@ -7692,6 +7686,12 @@
             <Link Id="NwrVFA0V9xiLhKM5H6LDoO" Ids="J30Udn7TjNXQSfeEiXm6mK,KGaCZEhExPrPw7NZywtPZ8" />
             <Link Id="BvFMewhQ5JiQJKcaWL9JNv" Ids="OmmIXOjyXuuPR1H9oCrSMa,AFQGtaaQZTmQQ9iBFujPyt" />
             <Link Id="SbhaWxa9IMiM36sT9R6Dei" Ids="GPwjsJlDmMwOXJpm0bl7t5,OmmIXOjyXuuPR1H9oCrSMa" IsHidden="true" />
+            <Patch Id="KKchQ1zO104MCzHAJApTG9" Name="Create" />
+            <Patch Id="H2r9eaqrzrOMlZ6exdVRwl" Name="Update">
+              <Pin Id="GPwjsJlDmMwOXJpm0bl7t5" Name="Enabled" Kind="InputPin" Bounds="102,78" />
+              <Pin Id="DMVKMhD25tbN9vznJuzE9D" Name="Parent Clock" Kind="InputPin" Bounds="242,118" />
+              <Pin Id="AQpppAqBmmePuFI1Mw6Bdb" Name="Local Clock State" Kind="InputPin" Bounds="449,156" />
+            </Patch>
           </Patch>
         </Node>
         <Overlay Id="Ti9wziqUGbqOFiQC0jTlBe" Name="Utils" Bounds="224,701,304,151">
@@ -8961,7 +8961,7 @@
                       <Choice Kind="TypeFlag" Name="Float64" />
                     </p:TypeAnnotation>
                   </Pad>
-                  <Node Bounds="1251,1408,71,26" Id="VrVnYXICiXXPIwvdB7X75c">
+                  <Node Bounds="1251,1438,71,26" Id="VrVnYXICiXXPIwvdB7X75c">
                     <p:NodeReference LastCategoryFullName="Music.Clock.FloatClockState" LastSymbolSource="VL.Music.Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="SetPlaying" />
@@ -9068,6 +9068,15 @@
                     <Pin Id="QjeeAJDZDMFOW6dlDpRXmF" Name="Value" Kind="InputPin" />
                     <Pin Id="BhPFJzhjg7jQZnuwcuLy9O" Name="Output" Kind="StateOutputPin" />
                   </Node>
+                  <Node Bounds="1276,1403,25,19" Id="SpXfEUEv9jPP7jCAwZ7rol">
+                    <p:NodeReference LastCategoryFullName="Primitive.Boolean" LastSymbolSource="CoreLibBasics.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <Choice Kind="OperationCallFlag" Name="AND" />
+                    </p:NodeReference>
+                    <Pin Id="MBrJZ42SnyBMoID2Aqo7vK" Name="Input" Kind="StateInputPin" />
+                    <Pin Id="I4ipyvRPiIRPPjl21b20IX" Name="Input 2" Kind="InputPin" />
+                    <Pin Id="UwhPSGLCalLL4k4NEKrHab" Name="Output" Kind="StateOutputPin" />
+                  </Node>
                 </Patch>
               </Node>
               <Pad Id="Er7o3GIqrvDOToAYsJ8zGn" SlotId="C6DT6fdiZY3Mw011RzaCtt" Bounds="1041,1187" />
@@ -9107,7 +9116,7 @@
                       <Choice Kind="OperationCallFlag" Name="Reset" />
                     </p:NodeReference>
                     <Pin Id="Q10KuY9hge6PsnR7SXazCp" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="A0rjRH2S54kNMG7Hb45RtV" Name="Output" Kind="StateOutputPin" />
+                    <Pin Id="MNfEGlDy9kUOeHBiamEnOh" Name="Output" Kind="OutputPin" />
                   </Node>
                 </Patch>
               </Node>
@@ -9419,6 +9428,7 @@
               </Node>
               <Pad Id="JuiIciFhZkfO5lY84eMDP1" SlotId="Tv3gzLvX8oKNHZl9Lb6YQ0" Bounds="1491,276" />
               <Pad Id="AgywwEk5xnTNhd77N4PP8p" SlotId="Tv3gzLvX8oKNHZl9Lb6YQ0" Bounds="1614,1524" />
+              <Pad Id="EGLJGYdX2N0MUumGjfrJ7E" SlotId="IpxY8Cbb0s3QOWYI3BpOd6" Bounds="1298,1190" />
             </Canvas>
             <Link Id="C9SGuEHlg78NeIbRGHz9ZL" Ids="Nclih57cORJMij5TLUqyV1,PbQNRNsIB8bLgUNoJnHomd" IsHidden="true" />
             <Link Id="JWJ01q8TTHiMC8G2YTwyXQ" Ids="VzEjfm29Ot4MRvKznbwNrm,N9T6K18c54aLoIJB69NNa0" IsHidden="true" />
@@ -9555,7 +9565,7 @@
             <Link Id="D6upT5bdbcoOlPIpDgsreb" Ids="Pywti3Ue8xRLo28I4Ypqnh,OUGPiOXtueDQdcCjgxiqtq" />
             <Link Id="JEqb0XkAHywM54E238dq2F" Ids="OgdteXa0mOuMDUKmElvTav,GtcmPFqx4RQLiYfER5cAD1" />
             <Link Id="VzmCRu3H0TkPkTJHZHifPX" Ids="M5iYrn9dvcBLCmIAFMpwwo,U2aCloLQbSROZiZc5qhcnX" />
-            <Link Id="FKfh0lq3SJFNBVuRW3Nh8H" Ids="M5iYrn9dvcBLCmIAFMpwwo,KKyKZ1D15mELVHN09goyDu" />
+            <Link Id="FKfh0lq3SJFNBVuRW3Nh8H" Ids="M5iYrn9dvcBLCmIAFMpwwo,MBrJZ42SnyBMoID2Aqo7vK" />
             <Link Id="NscEHQBFolRNYPsVP4LaQ6" Ids="IXPKTlliNPVPjgII1Mbsbp,RLP3mghDQQ1OIoYyREiMj1" />
             <Link Id="AHCaTZV3ZwGMgY5Bh19bQr" Ids="RLP3mghDQQ1OIoYyREiMj1,USADCgkzXmPQde8mP3MYBI" IsHidden="true" />
             <Link Id="RQgCe44HKiXPRA437y9fKG" Ids="NoTOROA4q5ZLu1OA7fA7Zv,ILCKzxMwWEeOaoAOEsTFVw" IsHidden="true" />
@@ -9728,6 +9738,8 @@
             <Link Id="IGHbV9LPaa2OA80VY7iYqP" Ids="AgywwEk5xnTNhd77N4PP8p,CQW8Dzmz5iBNyIqoRezVbw" />
             <Link Id="RoZYXsa51SDQGvLjtkXxT0" Ids="Jv6aITfJSoKMwkyfAMESkH,QjeeAJDZDMFOW6dlDpRXmF" />
             <Patch Id="S4QSha32ZREPkHuTlVbbp0" Name="CreateDefault (Hidden)" />
+            <Link Id="FXaALEDB2QtOjNPvPnZgSk" Ids="UwhPSGLCalLL4k4NEKrHab,KKyKZ1D15mELVHN09goyDu" />
+            <Link Id="DAOG3ZfSAqbPXAUunBJMZ1" Ids="EGLJGYdX2N0MUumGjfrJ7E,I4ipyvRPiIRPPjl21b20IX" />
           </Patch>
         </Node>
         <!--
@@ -11227,51 +11239,6 @@
             </ProcessDefinition>
             <Link Id="DZWKyCE2TE3PMyRTgokaP0" Ids="SfjqgtN6N8mO1qFcf693XM,MnZpSI9MM8nNp8gf5HNMVS" />
             <Link Id="RwfIf6NwCvONvWfDQSxRJA" Ids="M1SrzEQS2uUMrapIQsAZBb,SfjqgtN6N8mO1qFcf693XM" IsHidden="true" />
-            <Patch Id="QquuUcLt2G1OXG60M38Dk8" Name="Create" ParticipatingElements="Cqli8YMvJL3QJmSxzdFO6D,FpG95YsuAJLPQ1VEi7QUk0,DqtEMtrx2DyLNlWVnL5fd5,B4s9cNscJWQPTMKe8wDHck,PbINkVCVUwDOUViFAxVhc2,Je2ir9ztr8mM8i2ucGTLll,UkTtSSLXIB1PeMQk75MZZK">
-              <Pin Id="M1SrzEQS2uUMrapIQsAZBb" Name="Playing on Create" Kind="InputPin" Bounds="244,-34" DefaultValue="True" Visibility="Optional">
-                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                  <Choice Kind="TypeFlag" Name="Boolean" />
-                </p:TypeAnnotation>
-              </Pin>
-            </Patch>
-            <Patch Id="TLrI7nXxJedPClDFS81nKQ" Name="Update">
-              <Pin Id="ATOMJ9inJCeMrHv9fhE29F" Name="Reset" Kind="InputPin" DefaultValue="False">
-                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                  <Choice Kind="TypeFlag" Name="Boolean" />
-                </p:TypeAnnotation>
-              </Pin>
-              <Pin Id="CIrhQgsAI9eMA8p8KqzNz5" Name="Last Period" Kind="OutputPin" Bounds="430,635" />
-              <Pin Id="LuVvXQb65qRN1VAq6aEdRQ" Name="Counter TimeStep Float32" Kind="OutputPin" Bounds="159,670" />
-              <Pin Id="OM5wSnWxDkPNbIG3DCCHNb" Name="Internal Clock Enabled" Kind="InputPin" Bounds="443,539" />
-            </Patch>
-            <Patch Id="KHFr9DXuIHWM3IEjAelQMw" Name="CounterStream">
-              <Pin Id="GzrXsXZGOdJN9iWYZiWY9r" Name="Counter Stream" Kind="OutputPin" />
-            </Patch>
-            <Patch Id="RFlGWD5FNjYMsKo1KprbhK" Name="SetClock">
-              <Pin Id="S0gpGjSOVrzP7zslrpxGdL" Name="Clock" Kind="InputPin" />
-            </Patch>
-            <Patch Id="Oxlr8nNrbwiPgbXWyGsSrc" Name="FloatClockState">
-              <Pin Id="PcFrk0O4WLsNBSIG7gf3Hj" Name="FloatClockState" Kind="OutputPin" />
-            </Patch>
-            <Patch Id="Q0fS316UoKXOlTt5m7V1Lk" Name="SetBPM">
-              <Pin Id="HJ3paUAM8ZwMooLE3U19E1" MergeId="24953" Name="BPM" Kind="InputPin" DefaultValue="120" />
-            </Patch>
-            <Patch Id="IygcYwmhzElMOVFl9ojEx3" Name="SetPPQN">
-              <Pin Id="AQfvfHeqy37LVItLfuYU8x" MergeId="25034" Name="PPQN" Kind="InputPin" DefaultValue="96" />
-            </Patch>
-            <Patch Id="Mq4JzvO57geMwMQ0zd0YKh" Name="SetParentBPMMult">
-              <Pin Id="UVLwNI7MBsSNRfziFc059M" Name="Parent BPM Mult" Kind="InputPin" DefaultValue="1">
-                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                  <Choice Kind="TypeFlag" Name="Float64" />
-                </p:TypeAnnotation>
-              </Pin>
-            </Patch>
-            <Patch Id="FnjvUyVgzQMMC2Ryz2LWE0" Name="Reset" ParticipatingElements="P4iXZrdf6dpL8lbp7zRdJg,Ns090in2OMrNIrZUxCkd9d" />
-            <Patch Id="FQUAqLB6Sr5Oj2CaKaBiZT" Name="Play" ParticipatingElements="CwtlYGoYYm1Pk8DMNLM9fF,QVLBnbtQzBOM3Rs5JSfR0x" />
-            <Patch Id="Oh2Gfryy0GMODhTdi17iOx" Name="Stop" ParticipatingElements="SkEOoSvOIcdNHWEerXDJTK,Ai0wup62XnpNMe0mtkcPLY" />
-            <Patch Id="KF4zQqVHc3oMA6aLLI9YzF" Name="CommandStream">
-              <Pin Id="G5xT2hGuscEOISp34ByGMz" MergeId="919857" Name="Command Stream" Kind="OutputPin" />
-            </Patch>
             <Link Id="EymHQBOHpfUMM5Z5uDhBjm" Ids="QYcn22tTkFCPLQqJvu2MTP,G5xT2hGuscEOISp34ByGMz" IsHidden="true" />
             <Slot Id="HsDFcRGB086NE1y8K8pHYW" Name="Command Stream" />
             <Link Id="RiT2L8Ny7gjMGXAGJj2n7W" Ids="Duy0MAmoprePOvC5mba7lp,DMLRXXie1QDQIcM51m1XrH" />
@@ -11324,6 +11291,51 @@
             <Link Id="PQ7D1RoIKJVN2Zpo2GOkQR" Ids="Ux1J6CQNUjoMbLypSXk6cu,IhRxp1bwJ9JNcfRBvYbrMQ" />
             <Link Id="UcQs0rrWLB7LBkSmirpGbv" Ids="QgOwOLFMMtaOSddz57qK4T,LvKYr5PZLaPMofbXBuk6zD" />
             <Link Id="HLRL7yjNmcnOOigmjVLjbY" Ids="OM5wSnWxDkPNbIG3DCCHNb,QgOwOLFMMtaOSddz57qK4T" IsHidden="true" />
+            <Patch Id="QquuUcLt2G1OXG60M38Dk8" Name="Create" ParticipatingElements="Cqli8YMvJL3QJmSxzdFO6D,FpG95YsuAJLPQ1VEi7QUk0,DqtEMtrx2DyLNlWVnL5fd5,B4s9cNscJWQPTMKe8wDHck,PbINkVCVUwDOUViFAxVhc2,Je2ir9ztr8mM8i2ucGTLll,UkTtSSLXIB1PeMQk75MZZK">
+              <Pin Id="M1SrzEQS2uUMrapIQsAZBb" Name="Playing on Create" Kind="InputPin" Bounds="244,-34" DefaultValue="True" Visibility="Optional">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="TypeFlag" Name="Boolean" />
+                </p:TypeAnnotation>
+              </Pin>
+            </Patch>
+            <Patch Id="TLrI7nXxJedPClDFS81nKQ" Name="Update">
+              <Pin Id="ATOMJ9inJCeMrHv9fhE29F" Name="Reset" Kind="InputPin" DefaultValue="False">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="TypeFlag" Name="Boolean" />
+                </p:TypeAnnotation>
+              </Pin>
+              <Pin Id="OM5wSnWxDkPNbIG3DCCHNb" Name="Internal Clock Enabled" Kind="InputPin" Bounds="443,539" />
+              <Pin Id="LuVvXQb65qRN1VAq6aEdRQ" Name="Counter TimeStep Float32" Kind="OutputPin" Bounds="159,670" />
+              <Pin Id="CIrhQgsAI9eMA8p8KqzNz5" Name="Last Period" Kind="OutputPin" Bounds="430,635" />
+            </Patch>
+            <Patch Id="KHFr9DXuIHWM3IEjAelQMw" Name="CounterStream">
+              <Pin Id="GzrXsXZGOdJN9iWYZiWY9r" Name="Counter Stream" Kind="OutputPin" />
+            </Patch>
+            <Patch Id="RFlGWD5FNjYMsKo1KprbhK" Name="SetClock">
+              <Pin Id="S0gpGjSOVrzP7zslrpxGdL" Name="Clock" Kind="InputPin" />
+            </Patch>
+            <Patch Id="Oxlr8nNrbwiPgbXWyGsSrc" Name="FloatClockState">
+              <Pin Id="PcFrk0O4WLsNBSIG7gf3Hj" Name="FloatClockState" Kind="OutputPin" />
+            </Patch>
+            <Patch Id="Q0fS316UoKXOlTt5m7V1Lk" Name="SetBPM">
+              <Pin Id="HJ3paUAM8ZwMooLE3U19E1" MergeId="24953" Name="BPM" Kind="InputPin" DefaultValue="120" />
+            </Patch>
+            <Patch Id="IygcYwmhzElMOVFl9ojEx3" Name="SetPPQN">
+              <Pin Id="AQfvfHeqy37LVItLfuYU8x" MergeId="25034" Name="PPQN" Kind="InputPin" DefaultValue="96" />
+            </Patch>
+            <Patch Id="Mq4JzvO57geMwMQ0zd0YKh" Name="SetParentBPMMult">
+              <Pin Id="UVLwNI7MBsSNRfziFc059M" Name="Parent BPM Mult" Kind="InputPin" DefaultValue="1">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="TypeFlag" Name="Float64" />
+                </p:TypeAnnotation>
+              </Pin>
+            </Patch>
+            <Patch Id="FnjvUyVgzQMMC2Ryz2LWE0" Name="Reset" ParticipatingElements="P4iXZrdf6dpL8lbp7zRdJg,Ns090in2OMrNIrZUxCkd9d" />
+            <Patch Id="FQUAqLB6Sr5Oj2CaKaBiZT" Name="Play" ParticipatingElements="CwtlYGoYYm1Pk8DMNLM9fF,QVLBnbtQzBOM3Rs5JSfR0x" />
+            <Patch Id="Oh2Gfryy0GMODhTdi17iOx" Name="Stop" ParticipatingElements="SkEOoSvOIcdNHWEerXDJTK,Ai0wup62XnpNMe0mtkcPLY" />
+            <Patch Id="KF4zQqVHc3oMA6aLLI9YzF" Name="CommandStream">
+              <Pin Id="G5xT2hGuscEOISp34ByGMz" MergeId="919857" Name="Command Stream" Kind="OutputPin" />
+            </Patch>
           </Patch>
         </Node>
         <!--
@@ -11621,7 +11633,7 @@
                       <CategoryReference Kind="ClassType" Name="CounterClockState" NeedsToBeDirectParent="true" />
                     </p:NodeReference>
                     <Pin Id="GvUalHjcr5lOFgoYUgxAMU" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="RecmDN7MfaRLNZIrC7l2t3" Name="Output" Kind="StateOutputPin" />
+                    <Pin Id="NxATIalkF89NIrBKUPxLzI" Name="Output" Kind="OutputPin" />
                   </Node>
                 </Patch>
               </Node>
@@ -11653,7 +11665,7 @@
                       <CategoryReference Kind="ClassType" Name="CounterClockState" NeedsToBeDirectParent="true" />
                     </p:NodeReference>
                     <Pin Id="RRjEciylmYsNKjRWwfZoKv" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="LBQgNkzDORfMrfUmIgehCe" Name="Output" Kind="StateOutputPin" />
+                    <Pin Id="BNp7hDyJwJlMgs37ue7bIp" Name="Output" Kind="OutputPin" />
                   </Node>
                 </Patch>
               </Node>

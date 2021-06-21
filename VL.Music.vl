@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="Mzx3havohKrQAy9JHCjdny" LanguageVersion="2021.4.0.110" Version="0.128">
-  <NugetDependency Id="MuyPS0jNt7FMcDG7MUdAKh" Location="VL.CoreLib" Version="2021.4.0-0110-gd1322231db" />
+<Document xmlns:p="property" Id="Mzx3havohKrQAy9JHCjdny" LanguageVersion="2021.4.0.133" Version="0.128">
+  <NugetDependency Id="MuyPS0jNt7FMcDG7MUdAKh" Location="VL.CoreLib" Version="2021.4.0-0133-g17eaeec9bd" />
   <Patch Id="PH5sD3iPztUMTDUobZe4Ge">
     <Canvas Id="TPXNUVrOlrqMa0GTirJqbx" DefaultCategory="Music" CanvasType="FullCategory" />
     <!--
@@ -24,7 +24,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="VpmQEMq3sl6LgSHgKicPXd" Location="VL.Stride" Version="2021.4.0-0110-gd1322231db" />
+  <NugetDependency Id="VpmQEMq3sl6LgSHgKicPXd" Location="VL.Stride" Version="2021.4.0-0133-g17eaeec9bd" />
   <DocumentDependency Id="RAbZoemkaYXL2zQduvJHSY" Location="./vl/VL.Music.Theory.vl" IsForward="true" />
   <DocumentDependency Id="Os5p6dmzBM5M8uOOy2AMhk" Location="./vl/VL.Music.Core.vl" IsForward="true" />
   <DocumentDependency Id="SdVGvlDrUQkNyyAYvlgUe1" Location="./vl/VL.Music.Generator.vl" IsForward="true" />

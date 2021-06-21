@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="E4EW9ouyV3QM0V02ETQZW6" LanguageVersion="2021.4.0.110" Version="0.128">
-  <NugetDependency Id="SlELeXeM3wtPkkyfAz4zQy" Location="VL.CoreLib" Version="2021.4.0-0110-gd1322231db" />
+<Document xmlns:p="property" Id="E4EW9ouyV3QM0V02ETQZW6" LanguageVersion="2021.4.0.133" Version="0.128">
+  <NugetDependency Id="SlELeXeM3wtPkkyfAz4zQy" Location="VL.CoreLib" Version="2021.4.0-0133-g17eaeec9bd" />
   <Patch Id="Myo4a0ydMcaL8hOgf4Sjza">
     <Canvas Id="L7WBxJHUUnbNhyI1gN2wP6" DefaultCategory="Music.Theory" CanvasType="FullCategory">
       <Canvas Id="VYvfYr1HQcBNlO81fwph9o" Name="Analysis" Position="354,198">
@@ -3833,18 +3833,14 @@
             </p:NodeReference>
             <Patch Id="QKQXwxapc6NPcbj4sM9AK0" IsGeneric="true">
               <ControlPoint Id="LavDrljpRe1PdLGoqHqO9E" Bounds="2073,1146" />
-              <Pin Id="Ta0vo1r8klXLG5ym5zJIlA" Name="Value" Kind="InputPin" Bounds="912,556" />
               <Link Id="AqtDLg367awL8E6wY1ki9R" Ids="Ta0vo1r8klXLG5ym5zJIlA,LavDrljpRe1PdLGoqHqO9E" IsHidden="true" />
               <ControlPoint Id="OYf1ffk9ntULEw7YiiODoH" Bounds="1989,1338" />
-              <Pin Id="CPeLicPz6SwNG8TVYkmtnM" Name="Number" Kind="OutputPin" Bounds="809,845" />
               <Link Id="DjPhodw81KFOzepD9wPS02" Ids="OYf1ffk9ntULEw7YiiODoH,CPeLicPz6SwNG8TVYkmtnM" IsHidden="true" />
               <Link Id="SGw2Z5BqiUANzo3XgIze54" Ids="CoO1Ncm7zoANCOuj8Fz3OW,MX6XwBDgZiTLr3tIJ2hUzQ" />
               <ControlPoint Id="CoO1Ncm7zoANCOuj8Fz3OW" Bounds="1983,1120" />
-              <Pin Id="LwIdvFAbHFnN0atdfVHLI9" Name="Input" Kind="InputPin" Bounds="823,591" />
               <Link Id="J4nKY5v9Kh8O1n81AGnXCU" Ids="LwIdvFAbHFnN0atdfVHLI9,CoO1Ncm7zoANCOuj8Fz3OW" IsHidden="true" />
               <Link Id="CjpN3LT1H0tPFGvpE34vC5" Ids="EQ0RSrnuqQhQM4yw97xGrR,Tsw8E9PQ0bjPytFYzxqeB5" />
               <ControlPoint Id="EQ0RSrnuqQhQM4yw97xGrR" Bounds="2133,1141" />
-              <Pin Id="PGNuf3XRC3rLyODfkKBGct" Name="Transpose" Kind="InputPin" Bounds="931,564" />
               <Link Id="JgQ3cPdlWXYPZGyZLzmM0J" Ids="PGNuf3XRC3rLyODfkKBGct,EQ0RSrnuqQhQM4yw97xGrR" IsHidden="true" />
               <Node Bounds="1980,1255,103,19" Id="NhvI2Iu69TqLjN6XlOr7ef">
                 <p:NodeReference LastCategoryFullName="Music.Theory.Harmony" LastSymbolSource="VL.Music.Theory.vl">
@@ -3901,6 +3897,10 @@
               <Link Id="OGRQdFCZu8TO03DQ8eEsTd" Ids="QFm82BXrXKLLwtcwp6gK3I,Jgv2Wn64FfvPb9p9dtWCZB" />
               <Link Id="NNWJwYl1njROCS81CFHrbf" Ids="LavDrljpRe1PdLGoqHqO9E,KJVVX2l5f9ALCNmzC4MrGr" />
               <Link Id="KJFA1X4WqSaMq4oLscWiln" Ids="RtpqqK8SsNJMwSjB8UbDKV,OYf1ffk9ntULEw7YiiODoH" />
+              <Pin Id="LwIdvFAbHFnN0atdfVHLI9" Name="Input" Kind="InputPin" Bounds="823,591" />
+              <Pin Id="Ta0vo1r8klXLG5ym5zJIlA" Name="Value" Kind="InputPin" Bounds="912,556" />
+              <Pin Id="PGNuf3XRC3rLyODfkKBGct" Name="Transpose" Kind="InputPin" Bounds="931,564" />
+              <Pin Id="CPeLicPz6SwNG8TVYkmtnM" Name="Number" Kind="OutputPin" Bounds="809,845" />
             </Patch>
           </Node>
           <!--
@@ -3993,7 +3993,6 @@
               <Link Id="IhcH5YdLxNlNu8qNCOSLAT" Ids="SESaDINkoZiQCL67aymepp,MaJ7qIGN9aLO2vJzoap63G" />
               <Link Id="JfoFmwx8OUEQVQMrjBILXj" Ids="FTJ1PHlK2ZBOlybIJP4J4P,D369SnBrXprLKw9TSbrGOg" />
               <ControlPoint Id="FTJ1PHlK2ZBOlybIJP4J4P" Bounds="2474,1120" />
-              <Pin Id="LxN9Cg4PtvwLxO6AAUFeYc" Name="BaseNote" Kind="InputPin" Bounds="897,605" />
               <Link Id="H8X4ZnGiHCHPiecLoI65u4" Ids="LxN9Cg4PtvwLxO6AAUFeYc,FTJ1PHlK2ZBOlybIJP4J4P" IsHidden="true" />
               <Link Id="FECNmhbFG9HPHXZQrBvD9L" Ids="I7oWztJJXe4QVbhSjltsWz,A0XiW7f3lWKPSJqbezEZDA" />
               <Link Id="JJTsQ9F7Cq1Nit1L8euMMj" Ids="TOpnmjbbX3eMOV5VhhbrAT,LXZSalvWUw7OOL6XK2qT5K" IsFeedback="true" />
@@ -4003,7 +4002,6 @@
               <Link Id="SuQ6wEjPoaoNCD8USkJDqL" Ids="QF3Fk4f7xQQMKJu5JllI8d,LXZSalvWUw7OOL6XK2qT5K" />
               <Link Id="UUZEFKomi3dMiEFthGCyCi" Ids="LXZSalvWUw7OOL6XK2qT5K,SjNjyETxAheMwv0pc69gAu" />
               <ControlPoint Id="SjNjyETxAheMwv0pc69gAu" Bounds="2306,1421" />
-              <Pin Id="DSEVdLYXLD8M2BNZnDV0qw" Name="Scale" Kind="OutputPin" Bounds="1156,872" />
               <Link Id="GjsgEAzPSd6QEyYQmtv2xz" Ids="SjNjyETxAheMwv0pc69gAu,DSEVdLYXLD8M2BNZnDV0qw" IsHidden="true" />
               <Node Bounds="2294,1150,25,19" Id="BwpU5FDrBXyMAx14I8q43z">
                 <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
@@ -4019,8 +4017,10 @@
               <Link Id="INMBTdMekNoQYnMcjItuob" Ids="Lu2WWtO2LQvL6njMOMkCJF,HmjZ1xIIQM7NGM6Hxmb5cD" />
               <Link Id="B5hiCQL6pBKNjVGhBev805" Ids="UQbm1fX3ve3MXYiyXGBdOE,TOpnmjbbX3eMOV5VhhbrAT" />
               <ControlPoint Id="UQbm1fX3ve3MXYiyXGBdOE" Bounds="2380,1095" />
-              <Pin Id="GVlIcyhTyBQPhqw9NANyhl" Name="Scale" Kind="InputPin" Bounds="1584,-75" />
               <Link Id="ImUCs8MckzAMc85MnoPkPu" Ids="GVlIcyhTyBQPhqw9NANyhl,UQbm1fX3ve3MXYiyXGBdOE" IsHidden="true" />
+              <Pin Id="GVlIcyhTyBQPhqw9NANyhl" Name="Scale" Kind="InputPin" Bounds="1584,-75" />
+              <Pin Id="LxN9Cg4PtvwLxO6AAUFeYc" Name="BaseNote" Kind="InputPin" Bounds="897,605" />
+              <Pin Id="DSEVdLYXLD8M2BNZnDV0qw" Name="Scale" Kind="OutputPin" Bounds="1156,872" />
             </Patch>
           </Node>
         </Canvas>
