@@ -7050,7 +7050,7 @@
                       <Choice Kind="OperationCallFlag" Name="EvaluateSettings" />
                     </p:NodeReference>
                     <Pin Id="UX1Egsghtt2OEEzqiczFjr" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="GEUXPD8hzotNisa32QtSpc" Name="Output" Kind="OutputPin" />
+                    <Pin Id="KVHonbFr16LMbsN7GnHokj" Name="Output" Kind="OutputPin" />
                   </Node>
                 </Patch>
               </Node>
@@ -7081,7 +7081,7 @@
                       <Choice Kind="OperationCallFlag" Name="EvaluateSettings" />
                     </p:NodeReference>
                     <Pin Id="QfOcgKbZKvaMDP0M8yOOJQ" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="NxTrsXtf3UXLuKpJLTjh27" Name="Output" Kind="OutputPin" />
+                    <Pin Id="BrzePJtB06FMshxVDnrjKK" Name="Output" Kind="OutputPin" />
                   </Node>
                 </Patch>
               </Node>
@@ -7113,7 +7113,7 @@
                       <Choice Kind="OperationCallFlag" Name="EvaluateSettings" />
                     </p:NodeReference>
                     <Pin Id="TrJuy2yfVxqNYxKxUOx0Cy" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="JgcjeBe7dtANKdPz3zlUCC" Name="Output" Kind="OutputPin" />
+                    <Pin Id="ByOtW2M4oOAM37xnkp5hPv" Name="Output" Kind="OutputPin" />
                   </Node>
                 </Patch>
               </Node>
@@ -7144,7 +7144,7 @@
                       <Choice Kind="OperationCallFlag" Name="EvaluateSettings" />
                     </p:NodeReference>
                     <Pin Id="Sm3LD2pE6vIOR1pxdmNpxG" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="HuGLFXxZHUxOOp6U8Z2Sa3" Name="Output" Kind="OutputPin" />
+                    <Pin Id="Vbx7QPb1y1CNQQfxS7L9Ny" Name="Output" Kind="OutputPin" />
                   </Node>
                 </Patch>
               </Node>
@@ -9098,7 +9098,7 @@
                   <Patch Id="DjdxWZVaoRoL4TL3AdHgEa" Name="Update" ManuallySortedPins="true">
                     <Pin Id="CPb2CxhdztRM93tn61jzRn" Name="Input 1" Kind="InputPin">
                       <p:TypeAnnotation>
-                        <Choice Kind="TypeFlag" Name="Object" />
+                        <Choice Kind="TypeFlag" Name="Boolean" />
                       </p:TypeAnnotation>
                     </Pin>
                     <Pin Id="IHVWqv2dMg5Lcj17ZFflrg" Name="Output" Kind="OutputPin">
@@ -9116,7 +9116,7 @@
                       <Choice Kind="OperationCallFlag" Name="Reset" />
                     </p:NodeReference>
                     <Pin Id="Q10KuY9hge6PsnR7SXazCp" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="AXdSrJGniYvNlPZHYvxzBu" Name="Output" Kind="OutputPin" />
+                    <Pin Id="HkkQv8mV3GHOPZytfR23VK" Name="Output" Kind="OutputPin" />
                   </Node>
                 </Patch>
               </Node>
@@ -11633,7 +11633,7 @@
                       <CategoryReference Kind="ClassType" Name="CounterClockState" NeedsToBeDirectParent="true" />
                     </p:NodeReference>
                     <Pin Id="GvUalHjcr5lOFgoYUgxAMU" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="K8HKtE9Zp1LNV2RdLAJ69Z" Name="Output" Kind="OutputPin" />
+                    <Pin Id="RcNLtNHcTVxO6J6DPK4diV" Name="Output" Kind="OutputPin" />
                   </Node>
                 </Patch>
               </Node>
@@ -11665,7 +11665,7 @@
                       <CategoryReference Kind="ClassType" Name="CounterClockState" NeedsToBeDirectParent="true" />
                     </p:NodeReference>
                     <Pin Id="RRjEciylmYsNKjRWwfZoKv" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="IB50IvsdUUsMDxnwyqm7BB" Name="Output" Kind="OutputPin" />
+                    <Pin Id="Uw76b72MsqSMl5wwQ4ZfBR" Name="Output" Kind="OutputPin" />
                   </Node>
                 </Patch>
               </Node>
@@ -12177,10 +12177,10 @@
                     </Patch>
                   </Node>
                   <Node Bounds="221,311,70,26" Id="Egu5jnpHTuhNgOprvCjlYe">
-                    <p:NodeReference LastCategoryFullName="Music.Clock.FloatTimer" LastSymbolSource="VL.Music.Core.vl">
+                    <p:NodeReference LastCategoryFullName="Music.Clock.IUniversalClock" LastSymbolSource="VL.Music.Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="FloatStream" />
-                      <CategoryReference Kind="ClassType" Name="FloatTimer" NeedsToBeDirectParent="true" />
+                      <CategoryReference Kind="InterfaceTypeFlag" Name="IUniversalClock" NeedsToBeDirectParent="true" />
                     </p:NodeReference>
                     <Pin Id="NMGLXGcJMRBMKpyh8tX4B3" Name="Input" Kind="StateInputPin" />
                     <Pin Id="LHZq7NYbq1EML0PhhPsecB" Name="Output" Kind="StateOutputPin" />
@@ -12271,7 +12271,11 @@
               </Pin>
             </Patch>
             <Patch Id="NneZsfxizoqNdvTA4rGzVO" Name="SetFloatTimer">
-              <Pin Id="FITPw4yDeytPnW4xoL8Dqq" MergeId="21965" Name="Clock" Kind="InputPin" />
+              <Pin Id="FITPw4yDeytPnW4xoL8Dqq" MergeId="21965" Name="Clock" Kind="InputPin">
+                <p:TypeAnnotation>
+                  <Choice Kind="TypeFlag" Name="IUniversalClock" />
+                </p:TypeAnnotation>
+              </Pin>
             </Patch>
             <Link Id="D8GqMUkeGWTNGFEDG62Upc" Ids="VlWkfDQiGL8NnKIn0OiLfz,B2C0rKcU2T4OqCJG30IO5M" />
             <Link Id="TIkAZSr45etPKQuw2zAVWf" Ids="PLHABnjOOpCNQ88EEPt0Py,QesJPsvBXBCNj7VDmMpAmt" />
