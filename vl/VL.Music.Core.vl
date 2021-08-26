@@ -9565,8 +9565,6 @@
                 <Pin Id="EZOzHQjRTldNuJJRNh6yIq" Name="Is Not Default" Kind="OutputPin" />
               </Node>
               <ControlPoint Id="Q8nzzIypMczQCS1sxn742D" Bounds="178,281" />
-              <ControlPoint Id="DIfES7e8XPsL13E2Uyexfo" Bounds="1558,1812" />
-              <ControlPoint Id="Hzh9YIIcgfjM9OAgeyiLd7" Bounds="1618,1776" />
             </Canvas>
             <Link Id="C9SGuEHlg78NeIbRGHz9ZL" Ids="Nclih57cORJMij5TLUqyV1,PbQNRNsIB8bLgUNoJnHomd" IsHidden="true" />
             <Link Id="JWJ01q8TTHiMC8G2YTwyXQ" Ids="VzEjfm29Ot4MRvKznbwNrm,N9T6K18c54aLoIJB69NNa0" IsHidden="true" />
@@ -9854,10 +9852,7 @@
               <Pin Id="Cfk1usWDdQnLmPcgefhM3A" Name="Seek Time" Kind="InputPin" />
             </Patch>
             <Patch Id="KGnKYFj7rL6P9tl4WYgOW5" Name="Reset" ParticipatingElements="Olmfzi8IyYuP7CiUaXWlgL,BcYPDGdmma9Oy9a2vBCJ4c" />
-            <Patch Id="ARDxjYuN2PRMmqP9evujzL" Name="Update">
-              <Pin Id="TV82nrRHgGdOZSqmL59khe" Name="Parent Clock Not Assigned" Kind="OutputPin" />
-              <Pin Id="SErt5ocLSkjQE9a6dPZD58" Name="Parent Clock Assigned" Kind="OutputPin" />
-            </Patch>
+            <Patch Id="ARDxjYuN2PRMmqP9evujzL" Name="Update" />
             <Patch Id="QbonXlC4MEiQXe6PjNz59Q" Name="FloatStream">
               <Pin Id="LiPUinveQSQLYgKECP5lyj" Name="Float Stream" Kind="OutputPin" />
             </Patch>
@@ -9912,10 +9907,6 @@
             <Link Id="SblSdF2iKAvNIRCSKq4n0k" Ids="Q8nzzIypMczQCS1sxn742D,FlQJP6YkoFVPKaC3BFOnx8" IsHidden="true" />
             <Link Id="PutZZTwV34fNSo8BBAF2Qv" Ids="IXPKTlliNPVPjgII1Mbsbp,Q8nzzIypMczQCS1sxn742D" />
             <Link Id="JxEhgV9YobsPLvyB5C1IvX" Ids="MqED2QmwDaLLRu2NS29ecS,AvykcbjKemZMoj03EqNKiT" />
-            <Link Id="FJOfBJGFapTPfYqeDI9dlp" Ids="RQ2fT5IogekMVNlQW8S5Lc,DIfES7e8XPsL13E2Uyexfo" />
-            <Link Id="Q5lE2jQRpIjQTJt2yOZG1B" Ids="DIfES7e8XPsL13E2Uyexfo,TV82nrRHgGdOZSqmL59khe" IsHidden="true" />
-            <Link Id="BFQ2nzlwiCOQMGx6VldMdm" Ids="R852Xliz6bvPhO3H31UCvX,Hzh9YIIcgfjM9OAgeyiLd7" />
-            <Link Id="PIFYn6v8vINMXWG3OejMOc" Ids="Hzh9YIIcgfjM9OAgeyiLd7,SErt5ocLSkjQE9a6dPZD58" IsHidden="true" />
           </Patch>
         </Node>
         <!--
