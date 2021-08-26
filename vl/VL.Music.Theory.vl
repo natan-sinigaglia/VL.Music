@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="E4EW9ouyV3QM0V02ETQZW6" LanguageVersion="2021.4.0.133" Version="0.128">
-  <NugetDependency Id="SlELeXeM3wtPkkyfAz4zQy" Location="VL.CoreLib" Version="2021.4.0-0133-g17eaeec9bd" />
+<Document xmlns:p="property" Id="E4EW9ouyV3QM0V02ETQZW6" LanguageVersion="2021.4.0.321" Version="0.128">
+  <NugetDependency Id="SlELeXeM3wtPkkyfAz4zQy" Location="VL.CoreLib" Version="2021.4.0-0321-g7fcefd572a" />
   <Patch Id="Myo4a0ydMcaL8hOgf4Sjza">
     <Canvas Id="L7WBxJHUUnbNhyI1gN2wP6" DefaultCategory="Music.Theory" CanvasType="FullCategory">
       <Canvas Id="VYvfYr1HQcBNlO81fwph9o" Name="Analysis" Position="354,198">
@@ -130,12 +130,12 @@
             <Link Id="Fgvv1qON4OQNxB0Ze7Olay" Ids="KB1Ag6ZiVCyQCREkxjNTen,M6UJZAPIXayPVU9g7KICRq" />
             <Link Id="I1DTK9ZAfovLoXXE1AshER" Ids="EUO9YwEQwyqM4GWgd7ijdD,LB0KxncsDWmPIEP4oBiQXK" />
             <Pin Id="RzcdXlvXuoNLpWQ3bsTMtk" Name="Pitch" Kind="InputPin" Bounds="-339,540">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Integer32" />
               </p:TypeAnnotation>
             </Pin>
             <Pin Id="QyYS8fHPPcqOcR2AqdEqE2" Name="Circle Index" Kind="OutputPin" Bounds="-338,720">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Integer32" />
               </p:TypeAnnotation>
             </Pin>
@@ -153,17 +153,6 @@
           <Patch Id="VOmhiJUx0H1M4gjqx2Xdck" ManuallySortedPins="true">
             <ControlPoint Id="SW7hqIhmgkqOmHMMiFzRvx" Bounds="841,213" />
             <Link Id="UuAeLRTFXV0LmlQxW4HPMr" Ids="Pjkr653uZpbN2TgHBAGycs,SW7hqIhmgkqOmHMMiFzRvx" IsHidden="true" />
-            <Pin Id="Pjkr653uZpbN2TgHBAGycs" Name="Reference Notes Indices" Kind="InputPin">
-              <p:TypeAnnotation LastCategoryFullName="Collections" LastSymbolSource="VL.CoreLib.vl">
-                <Choice Kind="TypeFlag" Name="Spread" />
-                <FullNameCategoryReference ID="Collections" />
-                <p:TypeArguments>
-                  <TypeReference>
-                    <Choice Kind="TypeFlag" Name="Integer32" />
-                  </TypeReference>
-                </p:TypeArguments>
-              </p:TypeAnnotation>
-            </Pin>
             <Node Bounds="829,242,121,69" Id="LuN1iTBudncOkDNpRGvlvz">
               <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
@@ -188,17 +177,6 @@
               </Patch>
             </Node>
             <Link Id="PhLIXsOgg4VOhIZWNJR3jp" Ids="SW7hqIhmgkqOmHMMiFzRvx,LG2B8xphdcjPgOILjudGnw" />
-            <Pin Id="OUE10VKYQqjPwloE6uCUvy" Name="Note Index" Kind="InputPin">
-              <p:TypeAnnotation LastCategoryFullName="Collections" LastSymbolSource="VL.CoreLib.vl">
-                <Choice Kind="TypeFlag" Name="Spread" />
-                <FullNameCategoryReference ID="Collections" />
-                <p:TypeArguments>
-                  <TypeReference>
-                    <Choice Kind="TypeFlag" Name="Integer32" />
-                  </TypeReference>
-                </p:TypeArguments>
-              </p:TypeAnnotation>
-            </Pin>
             <ControlPoint Id="JGNgoYzF0vOOaGd3c4SLlb" Bounds="1048,219" />
             <Link Id="E8oRcF3FPHyM9b5vUTL3cr" Ids="OUE10VKYQqjPwloE6uCUvy,JGNgoYzF0vOOaGd3c4SLlb" IsHidden="true" />
             <Node Bounds="839,346,477,310" Id="JhXL1vceNzPMTr4GcauOqD">
@@ -343,11 +321,9 @@
             <Link Id="AEWyCv79xyDNbgfWtKo3pI" Ids="UWEfHofzKSzNlSTg0pPoLc,MvcRs68irbcLoBVFfN2eOn" />
             <Link Id="U9POS9LuDt7MOvOImMpWa2" Ids="ISIU7fjXv2mN6SoI63ZPIj,LJL59TpWW8oQX8Oamj9gKo" />
             <ControlPoint Id="DjjWwDZtZhaLhM9LAgfgLi" Bounds="1115,721" />
-            <Pin Id="UJZjE8uAOl6MomgT3ie2rD" Name="Circle Of Fifths Distance" Kind="OutputPin" Bounds="420,716" />
             <Link Id="IXeE9wyWAfdNzE9D6uE29a" Ids="DjjWwDZtZhaLhM9LAgfgLi,UJZjE8uAOl6MomgT3ie2rD" IsHidden="true" />
             <ControlPoint Id="Pjvj2m1IDYYODNvMx1IC8X" Bounds="1181,690" />
             <Link Id="Hv7Kw7w7JeSNqUu8HEvn6E" Ids="MvcRs68irbcLoBVFfN2eOn,Pjvj2m1IDYYODNvMx1IC8X" />
-            <Pin Id="N4imWpEtdfVPdIc5jwAI4Z" Name="Reference Note Index" Kind="OutputPin" Bounds="639,720" />
             <Link Id="HthyU3i7H4vNjxCbKHu6g3" Ids="Pjvj2m1IDYYODNvMx1IC8X,N4imWpEtdfVPdIc5jwAI4Z" IsHidden="true" />
             <Link Id="CF7MRzILOISQQe3ULyMeuP" Ids="HYcdXrtDD4TMow4XaFVIKM,BRzgnanFSBAPMxnwvm37Ow" />
             <Link Id="AbICZ5QuchtNBAhFp7a2p9" Ids="I0fVNsanB8SP8YqD0Xvq2V,B9dGMSFOVR7NfSDZM2uOga" />
@@ -358,6 +334,30 @@
             <Link Id="H2kjMxgg8QSQNvyF70Pd4v" Ids="I0fVNsanB8SP8YqD0Xvq2V,NOH5qhGq7emLT8AnoLmgY3" />
             <Link Id="H6NrKwDbyhoQAL2yUm4oni" Ids="F0OoaRiIBUsPuQm8sWli1a,IpAFrzLoBMEOPOz0m1E5zX" />
             <Link Id="K2kh8E5v6V2P5pDP8cOcel" Ids="Nt2VbPgEQkWPDWSjieLX89,BLFFFdRKyTBNgdEtULCEpF" />
+            <Pin Id="Pjkr653uZpbN2TgHBAGycs" Name="Reference Notes Indices" Kind="InputPin">
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastSymbolSource="VL.Collections.vl">
+                <Choice Kind="TypeFlag" Name="Spread" />
+                <FullNameCategoryReference ID="Collections" />
+                <p:TypeArguments>
+                  <TypeReference>
+                    <Choice Kind="TypeFlag" Name="Integer32" />
+                  </TypeReference>
+                </p:TypeArguments>
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="OUE10VKYQqjPwloE6uCUvy" Name="Note Index" Kind="InputPin">
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastSymbolSource="VL.Collections.vl">
+                <Choice Kind="TypeFlag" Name="Spread" />
+                <FullNameCategoryReference ID="Collections" />
+                <p:TypeArguments>
+                  <TypeReference>
+                    <Choice Kind="TypeFlag" Name="Integer32" />
+                  </TypeReference>
+                </p:TypeArguments>
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="UJZjE8uAOl6MomgT3ie2rD" Name="Circle Of Fifths Distance" Kind="OutputPin" Bounds="420,716" />
+            <Pin Id="N4imWpEtdfVPdIc5jwAI4Z" Name="Reference Note Index" Kind="OutputPin" Bounds="639,720" />
           </Patch>
         </Node>
         <!--
@@ -386,22 +386,22 @@
               </p:NodeReference>
               <Pin Id="EtmK0IYWf9zLEBtZ8US2bj" Name="Input" Kind="InputPin" />
               <Pin Id="IHNLKSJCLQDNxrzwNf4Ox6" Name="Input Minimum" Kind="InputPin" DefaultValue="-6">
-                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="TypeFlag" Name="Float32" />
                 </p:TypeAnnotation>
               </Pin>
               <Pin Id="BkIML4n0HbLL9PAKkE2oV4" Name="Input Maximum" Kind="InputPin" DefaultValue="6">
-                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="TypeFlag" Name="Float32" />
                 </p:TypeAnnotation>
               </Pin>
               <Pin Id="ESlGIONNUeHLjZbplw6PUZ" Name="Output Minimum" Kind="InputPin" DefaultValue="-6">
-                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="TypeFlag" Name="Float32" />
                 </p:TypeAnnotation>
               </Pin>
               <Pin Id="RvoWeNDqbdcLPqBN4c203Q" Name="Output Maximum" Kind="InputPin" DefaultValue="6">
-                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="TypeFlag" Name="Float32" />
                 </p:TypeAnnotation>
               </Pin>

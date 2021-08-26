@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="IT25mMPWbZHMQjyhDrCl43" LanguageVersion="2021.4.0.133" Version="0.128">
-  <NugetDependency Id="OYNTJjI6uvYPskONw813z5" Location="VL.CoreLib" Version="2021.4.0-0133-g17eaeec9bd" />
+<Document xmlns:p="property" Id="IT25mMPWbZHMQjyhDrCl43" LanguageVersion="2021.4.0.321" Version="0.128">
+  <NugetDependency Id="OYNTJjI6uvYPskONw813z5" Location="VL.CoreLib" Version="2021.4.0-0321-g7fcefd572a" />
   <Patch Id="E7XFXCJ1KhyNylSNrckJwE">
     <Canvas Id="NQiYHrdwQFoQUu3aShNhYH" DefaultCategory="Music.Generator" CanvasType="FullCategory">
       <Canvas Id="FR4x3E7dr17OskJQtufANL" Name="Analysis" Position="342,194">
@@ -2691,7 +2691,7 @@
             </ProcessDefinition>
             <Patch Id="OF9ZT0hVXLfLtVMXqL4fjb" Name="ApplyNRPN" />
             <Slot Id="Q1CFICGFBDONltUafMoF2R" Name="Messages">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation p:Type="TypeReference">
                 <Choice Kind="TypeFlag" Name="Observable" />
                 <p:TypeArguments>
                   <TypeReference>
@@ -3955,7 +3955,7 @@
                 </p:NodeReference>
                 <Pin Id="GzQPb5DgcvnPkVJc3UMVlu" Name="Input" Kind="InputPin" />
                 <Pin Id="BnjQ1t2ayBPQSEg4KFbgj1" Name="Input 2" Kind="InputPin" DefaultValue="0.85">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="TypeFlag" Name="Float32" />
                   </p:TypeAnnotation>
                 </Pin>
@@ -3988,12 +3988,12 @@
                 </p:NodeReference>
                 <Pin Id="L1gDwQ7ogcJOSxd50bYReb" Name="Input" Kind="InputPin" />
                 <Pin Id="B5fUaJJaxu5OzpxPiu0CH9" Name="Input Minimum" Kind="InputPin" DefaultValue="21">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="TypeFlag" Name="Float32" />
                   </p:TypeAnnotation>
                 </Pin>
                 <Pin Id="An4FJ432Se0QbRcz6hrA88" Name="Input Maximum" Kind="InputPin" DefaultValue="108">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="TypeFlag" Name="Float32" />
                   </p:TypeAnnotation>
                 </Pin>
@@ -4027,12 +4027,12 @@
                 </p:NodeReference>
                 <Pin Id="FUjkNGkRGMXNZQIdnn1rBH" Name="Input" Kind="InputPin" />
                 <Pin Id="IeMtNdleFLCNXZJivi65bw" Name="Input Minimum" Kind="InputPin" DefaultValue="21">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="TypeFlag" Name="Float32" />
                   </p:TypeAnnotation>
                 </Pin>
                 <Pin Id="NJfRIyLaAZbQaf5C5j8ER2" Name="Input Maximum" Kind="InputPin" DefaultValue="108">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="TypeFlag" Name="Float32" />
                   </p:TypeAnnotation>
                 </Pin>
@@ -4128,7 +4128,7 @@
                 </p:NodeReference>
                 <Pin Id="S5nRKqLmmOPPmdIjZUurCi" Name="Input" Kind="InputPin" />
                 <Pin Id="GaNOu5tTHXCLDxx0hRk7MX" Name="Exponent" Kind="InputPin" DefaultValue="0.5">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="TypeFlag" Name="Float32" />
                   </p:TypeAnnotation>
                 </Pin>
@@ -4222,7 +4222,7 @@
               <Fragment Id="NgyO72WJhbkLZe3CCxxICd" Patch="INd1DGMP54POaL06BIxRlk" Enabled="true" />
             </ProcessDefinition>
             <Slot Id="CVgigfFpenxPA966prpKbC" Name="Energy">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+              <p:TypeAnnotation p:Type="TypeReference" LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Float32" />
               </p:TypeAnnotation>
             </Slot>
@@ -4234,19 +4234,19 @@
             <Link Id="EmvfylQEpSNM7Q5Uk3BllB" Ids="DCGCAdtwDWyPdQIDPcy3Gb,UZ1UqZgYad3O705BV9H5GH" />
             <Link Id="Ut2fksmUVZiPCuPy6d6NLG" Ids="KWPnH1Tf87zMFC1sTHmIks,DCGCAdtwDWyPdQIDPcy3Gb" IsHidden="true" />
             <Slot Id="S2MuG4Iyx18OW0gvQUUkiL" Name="Pitch">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+              <p:TypeAnnotation p:Type="TypeReference" LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Integer32" />
               </p:TypeAnnotation>
             </Slot>
             <Link Id="LxNaLMmYsTYP3QOZ4HPGVf" Ids="CHKwO7OCa9vQc8uUpuNwg1,JLnVV5hIaBrN98MjEeziIF" />
             <Link Id="V2f9yn1bFnlOyWyiyoVGmS" Ids="JRXlBPhmvkTMh6fV09wApT,CHKwO7OCa9vQc8uUpuNwg1" IsHidden="true" />
             <Slot Id="BR2VbGWD5bNQFh977jtm1x" Name="SustainCoef">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+              <p:TypeAnnotation p:Type="TypeReference" LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Float32" />
               </p:TypeAnnotation>
             </Slot>
             <Slot Id="VOT5MMdyP89MjW3MTXeQAx" Name="DecayCoef">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+              <p:TypeAnnotation p:Type="TypeReference" LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Float32" />
               </p:TypeAnnotation>
             </Slot>
@@ -4276,7 +4276,7 @@
             <Link Id="EubN5gN1jPsNZzwD2njuwS" Ids="TKavJ97LZm8QCpk517GI63,TF5ZoTO3BxYOZ9VerKX9r1" />
             <Link Id="Jc1f6eTwyvzOOzxmK7KGu1" Ids="Rz3kZELnCEUOTOYEGNMkGE,VJxzKdKvKXHLtl8UYvtDfI" />
             <Slot Id="KBC8ZslC2apP5HuXrf6wea" Name="Volume">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+              <p:TypeAnnotation p:Type="TypeReference" LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Float32" />
               </p:TypeAnnotation>
             </Slot>
@@ -4292,7 +4292,7 @@
               <Pin Id="B32APXQlTBBLtxtm9IwPRc" Name="Pitch" Kind="OutputPin" />
             </Patch>
             <Slot Id="HK5fj6MyR05LW8jzdtLLVo" Name="Color">
-              <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="VL.CoreLib.vl">
+              <p:TypeAnnotation p:Type="TypeReference" LastCategoryFullName="Color" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="RGBA" />
               </p:TypeAnnotation>
             </Slot>
@@ -4308,13 +4308,13 @@
             <Link Id="Jg65QEeCYInK9XPkJ0jIC6" Ids="RvvftYvQZwMMZUX41qww8H,AVFTu5BOfeDMnUNrMbeWYH" />
             <Link Id="PrbmpwEdi6fPSD9LZwvVgG" Ids="QFZEhptxB5JMmBweLM60zK,H3atywtRa4NLwwlhh588h0" />
             <Slot Id="EOkheWDtWo5QCDqhGPCACA" Name="InitialColor">
-              <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="VL.CoreLib.vl">
+              <p:TypeAnnotation p:Type="TypeReference" LastCategoryFullName="Color" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="RGBA" />
               </p:TypeAnnotation>
             </Slot>
             <Link Id="PdI20byVbTvMmrELWu0cAv" Ids="CweTEuIiG54OoKgdq7lIaD,Ldy0twp0BQuPiYVYJnKDhx" />
             <Slot Id="IlBm8OZuNoBNE9nCGeoFhI" Name="Pressed">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+              <p:TypeAnnotation p:Type="TypeReference" LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Boolean" />
               </p:TypeAnnotation>
             </Slot>
@@ -4340,12 +4340,12 @@
               <Pin Id="TfTdZaLT4gRL6t0NKOlze4" Name="Pressed" Kind="OutputPin" />
             </Patch>
             <Slot Id="RAVscgejb6JMmwDsUGKBKb" Name="MelodyID">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+              <p:TypeAnnotation p:Type="TypeReference" LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Integer32" />
               </p:TypeAnnotation>
             </Slot>
             <Slot Id="PGjb75pdftlP3NJYzSjDhT" Name="MelodyCustom">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+              <p:TypeAnnotation p:Type="TypeReference" LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Integer32" />
               </p:TypeAnnotation>
             </Slot>
@@ -4395,29 +4395,6 @@
             <FullNameCategoryReference ID="Primitive" />
           </p:NodeReference>
           <Patch Id="Rv9TWMBmr2oPLbNirC3oYJ">
-            <Patch Id="RTwpKJTbuqzLWTAtQLyhy2" Name="Create" ParticipatingElements="RzpbzChuiAiOtWEISXrlsW">
-              <Pin Id="B5mzwm6gBksMjP2DtGjIx5" Name="Notes Count" Kind="InputPin" DefaultValue="88">
-                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
-                  <Choice Kind="TypeFlag" Name="Integer32" />
-                </p:TypeAnnotation>
-              </Pin>
-              <Pin Id="ALJ3K1LUsyFMGe9AVKnL1U" Name="LowestNoteIndex" Kind="InputPin" Bounds="77,374" DefaultValue="22">
-                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
-                  <Choice Kind="TypeFlag" Name="Integer32" />
-                </p:TypeAnnotation>
-              </Pin>
-            </Patch>
-            <Patch Id="T1v1ccxDza3PEAPFztYplq" Name="Update" ManuallySortedPins="true">
-              <Pin Id="NUTOMQ6by4tQaOaPQTDgge" Name="Observable MIDI" Kind="InputPin" Bounds="335,297" />
-              <Pin Id="QbzmMkUDXmLNwlovQN6kAK" Name="Notes" Kind="OutputPin" Bounds="55,736" />
-              <Pin Id="QqSi6uNeoAEMdQsDA6Yqbm" Name="SustainPedal" Kind="OutputPin" Bounds="346,433">
-                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
-                  <Choice Kind="TypeFlag" Name="Float32" />
-                </p:TypeAnnotation>
-              </Pin>
-              <Pin Id="MZ8WksskFU0NNgCQoqiZrN" Name="Notes Receiving" Kind="OutputPin" Bounds="212,427" />
-              <Pin Id="SESSosr5FLoQE0t7W9tA6J" Name="SustainPedal Receiving" Kind="OutputPin" Bounds="393,352" />
-            </Patch>
             <Canvas Id="DnbjMIMLcURQcgb3V0GDmS" CanvasType="Group">
               <Node Bounds="415,410,83,13" Id="Fb9EffKoyVqM10yXKwo12y">
                 <p:NodeReference LastCategoryFullName="IO.Midi" LastSymbolSource="VL.IO.Midi.vl">
@@ -4488,7 +4465,7 @@
                     </p:NodeReference>
                     <Pin Id="B0GFoTREb88NsQuYroMgve" Name="Input" Kind="InputPin" />
                     <Pin Id="PNxhcnb2KzeQM5xfq3QhUo" Name="Input 2" Kind="InputPin" DefaultValue="22">
-                      <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+                      <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                         <Choice Kind="TypeFlag" Name="Integer32" />
                       </p:TypeAnnotation>
                     </Pin>
@@ -4551,7 +4528,7 @@
             <Link Id="CzO7D0XLyfsOSuwiUNOaFF" Ids="GZoN8b9B4OYL0gRMbGvdQD,BJMZwWxpWzRNxVBeyqOX7D" />
             <Link Id="DyR2EADlr4CO66BSWAmgZf" Ids="Fe0eBfWYtOyPbyjyT8S2Bi,PMloj5Exhq4PtB31KFOhFm" />
             <Slot Id="JqjuCPWlFFsLEKDsivUGK5" Name="Notes">
-              <p:TypeAnnotation LastCategoryFullName="Collections" LastSymbolSource="VL.CoreLib.vl">
+              <p:TypeAnnotation p:Type="TypeReference" LastCategoryFullName="Collections" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Spread" />
                 <FullNameCategoryReference ID="Collections" />
                 <p:TypeArguments>
@@ -4574,7 +4551,7 @@
             <Link Id="NLRkGgwa4LULUJXVInMIBt" Ids="BMMMnP2yfVCMfWgD2EFUJL,Tl4SqLIETveL49IX7VmCYt" />
             <Link Id="LTHAM5v8XtTL7MvuApYbG7" Ids="Tl4SqLIETveL49IX7VmCYt,RH70eOt8AGnOmsz0rhM9C2" />
             <Slot Id="FQCkBUMR2i3LyWUXVyJaRO" Name="SustainPedal">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+              <p:TypeAnnotation p:Type="TypeReference" LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Float32" />
               </p:TypeAnnotation>
             </Slot>
@@ -4598,6 +4575,29 @@
             <Link Id="GsrZc79dJtzMvaHSEDo70k" Ids="B5mzwm6gBksMjP2DtGjIx5,IX5qSVNnSSwLH7pLBizieG" IsHidden="true" />
             <Link Id="N3d8Aor0we4PQyzhsdoXLU" Ids="NoqRRbJAHNcOrPpNPrnm4r,PNxhcnb2KzeQM5xfq3QhUo" />
             <Link Id="D0xVn3krzVfMKqO2PFxFnX" Ids="ALJ3K1LUsyFMGe9AVKnL1U,NoqRRbJAHNcOrPpNPrnm4r" IsHidden="true" />
+            <Patch Id="RTwpKJTbuqzLWTAtQLyhy2" Name="Create" ParticipatingElements="RzpbzChuiAiOtWEISXrlsW">
+              <Pin Id="B5mzwm6gBksMjP2DtGjIx5" Name="Notes Count" Kind="InputPin" DefaultValue="88">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="TypeFlag" Name="Integer32" />
+                </p:TypeAnnotation>
+              </Pin>
+              <Pin Id="ALJ3K1LUsyFMGe9AVKnL1U" Name="LowestNoteIndex" Kind="InputPin" Bounds="77,374" DefaultValue="22">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="TypeFlag" Name="Integer32" />
+                </p:TypeAnnotation>
+              </Pin>
+            </Patch>
+            <Patch Id="T1v1ccxDza3PEAPFztYplq" Name="Update" ManuallySortedPins="true">
+              <Pin Id="NUTOMQ6by4tQaOaPQTDgge" Name="Observable MIDI" Kind="InputPin" Bounds="335,297" />
+              <Pin Id="QbzmMkUDXmLNwlovQN6kAK" Name="Notes" Kind="OutputPin" Bounds="55,736" />
+              <Pin Id="QqSi6uNeoAEMdQsDA6Yqbm" Name="SustainPedal" Kind="OutputPin" Bounds="346,433">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="TypeFlag" Name="Float32" />
+                </p:TypeAnnotation>
+              </Pin>
+              <Pin Id="MZ8WksskFU0NNgCQoqiZrN" Name="Notes Receiving" Kind="OutputPin" Bounds="212,427" />
+              <Pin Id="SESSosr5FLoQE0t7W9tA6J" Name="SustainPedal Receiving" Kind="OutputPin" Bounds="393,352" />
+            </Patch>
           </Patch>
         </Node>
         <!--
@@ -4815,7 +4815,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="VfbWR3eAfOhMCjS3kM7z7y" Location="VL.Stride" Version="2021.4.0-0133-g17eaeec9bd" />
+  <NugetDependency Id="VfbWR3eAfOhMCjS3kM7z7y" Location="VL.Stride" Version="2021.4.0-0321-g7fcefd572a" />
   <DocumentDependency Id="GcTI3nqhfeUOfDdvzkShtI" Location="./VL.Music.Core.vl" />
   <DocumentDependency Id="FatVOC8nwd5LKMuWlTKEbv" Location="./VL.Music.Theory.vl" />
   <NugetDependency Id="JvXRkkbiUeSOQ0v90da1GQ" Location="VL.IO.Midi" Version="1.0.3" />
