@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="HTK7ZiIC97hQcEu1ZsweU7" LanguageVersion="2021.4.0.321" Version="0.128">
-  <NugetDependency Id="OtNFfaw1RC2NkDOg6Pn59f" Location="VL.CoreLib" Version="2021.4.0-0321-g7fcefd572a" />
+<Document xmlns:p="property" Id="HTK7ZiIC97hQcEu1ZsweU7" LanguageVersion="2021.4.0.351" Version="0.128">
+  <NugetDependency Id="OtNFfaw1RC2NkDOg6Pn59f" Location="VL.CoreLib" Version="2021.4.0-0351-ga5f5bbb266" />
   <Patch Id="RsjJn6jHigJQXkIx61cWGL">
     <Canvas Id="RkjAlkRkTiWPVIyRiVVEaL" DefaultCategory="Music" CanvasType="FullCategory">
       <Canvas Id="Uu3DKpMxP5tN3K8WZYURJv" Name="Math" Position="332,210">
@@ -1644,7 +1644,7 @@
             <ControlPoint Id="OfwDtP94axTM99PwS09Jds" Bounds="897,379" />
             <Link Id="N6mdsMuH19DMlI2DFxqonw" Ids="OfwDtP94axTM99PwS09Jds,B3Ae4m0NrKSNyiv5ZW8ZUR" />
             <Link Id="Gzt0XvPh5npPZz3TSWhALw" Ids="MCDrhrHJzUdPpW9WGYK3ad,OfwDtP94axTM99PwS09Jds" IsHidden="true" />
-            <Pin Id="DpFooUDkxH7NldRJoc0W3T" Name="Input" Kind="InputPin" DefaultValue="60" />
+            <Pin Id="DpFooUDkxH7NldRJoc0W3T" Name="Input" Kind="InputPin" />
             <Pin Id="APyTf63ZaNYMc6So3D0nFB" Name="Input Minimum" Kind="InputPin" Bounds="970,187" />
             <Pin Id="SeqFyJ1kpS3Lslodj8Duyh" Name="Input Maximum" Kind="InputPin" Bounds="995,209" DefaultValue="1">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
@@ -3698,7 +3698,7 @@
                 <Pin Id="CwFDtdpcn9aLsXpiyu3JmC" Name="Default Min Value" Kind="InputPin" Bounds="230,191" />
                 <Pin Id="OOu8H7NFbLmMly9BTRexoZ" Name="Default Max Value" Kind="InputPin" />
                 <Pin Id="MVuCevWfmblNomgIIQL6de" Name="Temporal Adaptation" Kind="InputPin" Bounds="433,360" />
-                <Pin Id="Esgnnbqt3aEPlixLnn4tHI" Name="Temporal Adaptation Amount" Kind="InputPin" Bounds="447,405" DefaultValue="0.05" Visibility="Optional" />
+                <Pin Id="Esgnnbqt3aEPlixLnn4tHI" Name="Temporal Adaptation Amount" Kind="InputPin" Bounds="447,405" Visibility="Optional" />
                 <Pin Id="OdYfD2HEyjvO8SfiPEVo8h" Name="Enable" Kind="InputPin" Bounds="862,810" DefaultValue="True">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="TypeFlag" Name="Boolean" />
@@ -5223,13 +5223,13 @@
               <Pin Id="IHEYGF8UfkZPj4wL0rVKvQ" Name="FloatClockState" Kind="OutputPin" />
             </Patch>
             <Patch Id="KgAgStOln6HNDw9atBD8hC" Name="SetBPM">
-              <Pin Id="Q0A2na9qWtKQD31h8WhQfV" MergeId="24953" Name="BPM" Kind="InputPin" DefaultValue="120" />
+              <Pin Id="Q0A2na9qWtKQD31h8WhQfV" MergeId="24953" Name="BPM" Kind="InputPin" />
             </Patch>
             <Patch Id="Mk4RqILVGyMM7b3u9mSKOY" Name="SetPPQN">
-              <Pin Id="F6BTiI2INQbN1Yche4xDV4" MergeId="25034" Name="PPQN" Kind="InputPin" DefaultValue="96" />
+              <Pin Id="F6BTiI2INQbN1Yche4xDV4" MergeId="25034" Name="PPQN" Kind="InputPin" />
             </Patch>
             <Patch Id="Avg3Cm6S910PeTVGJGHofV" Name="SetFloatCounterTimeStep">
-              <Pin Id="VKdcjGtcNdZOTGMplukaLq" MergeId="24776" Name="Float Counter TimeStep" Kind="InputPin" DefaultValue="10" />
+              <Pin Id="VKdcjGtcNdZOTGMplukaLq" MergeId="24776" Name="Float Counter TimeStep" Kind="InputPin" />
             </Patch>
             <Patch Id="JPuWWUf9hLTLufKTAuxh4F" Name="SetParentBPMMult">
               <Pin Id="A3QSPKufxt6PX5Rr1MgCoV" Name="Parent BPM Mult" Kind="InputPin" DefaultValue="1">
@@ -10533,10 +10533,10 @@
             <Link Id="BWqrw26sf05QNKUvmXEKcQ" Ids="RPBqy8MRtqzOEOeaWmacUM,TMID2btPaQCQEJuJaEg7O5" />
             <Link Id="CERpGNdpER2Lc39SZEOLeY" Ids="TMID2btPaQCQEJuJaEg7O5,GfB9ebIMF7qN9wLTPqOirX" IsHidden="true" />
             <Patch Id="PFnTFGCkj4pNblvy6v6UFa" Name="SetBPM">
-              <Pin Id="ONOKegGvbe0NilWsAE1qS4" MergeId="422649" Name="BPM" Kind="InputPin" DefaultValue="120" />
+              <Pin Id="ONOKegGvbe0NilWsAE1qS4" MergeId="422649" Name="BPM" Kind="InputPin" />
             </Patch>
             <Patch Id="IcOV78f94ChQCfkAIwdaHz" Name="SetPPQN">
-              <Pin Id="CdCN1qnonIIPWs3nEza0OK" MergeId="422651" Name="PPQN" Kind="InputPin" DefaultValue="96" />
+              <Pin Id="CdCN1qnonIIPWs3nEza0OK" MergeId="422651" Name="PPQN" Kind="InputPin" />
             </Patch>
             <Link Id="T9nD9w5EkGZMghVDIgWHPb" Ids="ONOKegGvbe0NilWsAE1qS4,EgWzHzVsN2oPYjApIc17Ru" IsHidden="true" />
             <Link Id="PpNq9G2sQSoLPLQ5DrsPR9" Ids="CdCN1qnonIIPWs3nEza0OK,CCt7d3ympswPRlcNFTkOzo" IsHidden="true" />
@@ -11491,10 +11491,10 @@
               <Pin Id="PcFrk0O4WLsNBSIG7gf3Hj" Name="FloatClockState" Kind="OutputPin" />
             </Patch>
             <Patch Id="Q0fS316UoKXOlTt5m7V1Lk" Name="SetBPM">
-              <Pin Id="HJ3paUAM8ZwMooLE3U19E1" MergeId="24953" Name="BPM" Kind="InputPin" DefaultValue="120" />
+              <Pin Id="HJ3paUAM8ZwMooLE3U19E1" MergeId="24953" Name="BPM" Kind="InputPin" />
             </Patch>
             <Patch Id="IygcYwmhzElMOVFl9ojEx3" Name="SetPPQN">
-              <Pin Id="AQfvfHeqy37LVItLfuYU8x" MergeId="25034" Name="PPQN" Kind="InputPin" DefaultValue="96" />
+              <Pin Id="AQfvfHeqy37LVItLfuYU8x" MergeId="25034" Name="PPQN" Kind="InputPin" />
             </Patch>
             <Patch Id="Mq4JzvO57geMwMQ0zd0YKh" Name="SetParentBPMMult">
               <Pin Id="UVLwNI7MBsSNRfziFc059M" Name="Parent BPM Mult" Kind="InputPin" DefaultValue="1">
