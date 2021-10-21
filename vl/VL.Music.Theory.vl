@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="E4EW9ouyV3QM0V02ETQZW6" LanguageVersion="2021.4.0.394" Version="0.128">
-  <NugetDependency Id="SlELeXeM3wtPkkyfAz4zQy" Location="VL.CoreLib" Version="2021.4.0-0394-gcefddcf14d" />
+<Document xmlns:p="property" Id="E4EW9ouyV3QM0V02ETQZW6" LanguageVersion="2021.4.0.526" Version="0.128">
+  <NugetDependency Id="SlELeXeM3wtPkkyfAz4zQy" Location="VL.CoreLib" Version="2021.4.0-0526-gd606d93626" />
   <Patch Id="Myo4a0ydMcaL8hOgf4Sjza">
     <Canvas Id="L7WBxJHUUnbNhyI1gN2wP6" DefaultCategory="Music.Theory" CanvasType="FullCategory">
       <Canvas Id="VYvfYr1HQcBNlO81fwph9o" Name="Analysis" Position="354,198">
